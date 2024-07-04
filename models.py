@@ -28,59 +28,6 @@ class PositionalEncoding(nn.Module):
         x = x + Variable(self.pe[:, :x.size(1)], 
                          requires_grad=False)
         return self.dropout(x)
-    
-class TransformerEncoderForScoring(nn.Module):
-    def __init__(self, n_feature, d_model, n_head, max_len, num_encoder_layers=6, l2_lambda=0, use_checkpoint=True):
-        super(TransformerEncoderForScoring, self).__init__()
-        
-        self.d_model = d_model
-        self.l2_lambda = l2_lambda
-        self.use_checkpoint = use_checkpoint
-        
-        self.change_d_model = nn.Linear(n_feature, d_model)
-        
-        self.position_encoder = PositionalEncoding(d_model, max_len)
-        
-        # Transformer 编码器
-        encoder_layer = nn.TransformerEncoderLayer(d_model=d_model, nhead=n_head, dim_feedforward=d_model*4)
-        self.transformer_encoder = nn.TransformerEncoder(encoder_layer, num_layers=num_encoder_layers)
-        # self.transformer = nn.Transformer(d_model=d_model, nhead=n_head, num_encoder_layers=num_encoder_layers, dim_feedforward=d_model*4, batch_first=False)
-        
-        # 池化层
-        self.avg_pool = nn.AdaptiveAvgPool1d(1)
-        
-        # 全连接层
-        self.fc = nn.Linear(d_model, 1)
-
-    @autocast()
-    @resource_monitor
-    def forward(self, src, src_key_padding_mask):
-        src = self.change_d_model(src)
-        # 添加位置编码
-        src = src + self.position_encoder(src)
-        # 通过 Transformer 编码器
-        if self.use_checkpoint:
-            transformer_output = checkpoint(self.encode, src, src_key_padding_mask)
-        else:
-            transformer_output = self.transformer_encoder(src, src_key_padding_mask=src_key_padding_mask)
-        # 池化
-        pooled_output = self.avg_pool(transformer_output.permute(1, 2, 0)).squeeze(-1)
-        # 全连接层
-        output = self.fc(pooled_output)
-        output = torch.sigmoid(output) * 5
-        return output
-    
-    def encode(self, src, src_key_padding_mask):
-        return self.transformer_encoder(src, src_key_padding_mask=src_key_padding_mask)
-    
-    def l2_regularization(self):
-        l2_reg = torch.tensor(0.0).cuda()
-        for name, param in self.named_parameters():
-            if 'weight' in name:
-                l2_reg += torch.norm(param, p=2)
-        return self.l2_lambda * l2_reg
-    
-
 
 class TransformerForTTS(nn.Module):
     '''
@@ -89,17 +36,19 @@ class TransformerForTTS(nn.Module):
     2、任何在重新运行时表现出非幂等(non-idempotent)行为的层。如dropout, BN
     3、必要时可以通过特殊方式使第一层拥有一个无意义的梯度。https://mathpretty.com/11156.html
     '''
-    def __init__(self, n_feature, max_length_src, max_length_tgt, vocab_size, n_mel_channels=80, d_model=256, nhead=8, num_encoder_layers=6, num_decoder_layers=6, dropout=0.1):
+    def __init__(self, max_length_src, max_length_tgt, vocab_size, n_mel_channels=80, d_model=256, nhead=8, num_encoder_layers=6, num_decoder_layers=6, dropout=0.1):
         super(TransformerForTTS, self).__init__()
         
         self.encoder_embedding = nn.Embedding(vocab_size, d_model)
         self.position_encoder = PositionalEncoding(d_model, max_length_src)
         # 线性层将音频特征调整为transformer模型的维度
-        self.change_d_model = nn.Linear(n_feature, d_model)
+        self.change_d_model = nn.Linear(n_mel_channels, d_model)
         self.position_decoder = PositionalEncoding(d_model, max_length_tgt)
         self.transformer = nn.Transformer(d_model, nhead, num_encoder_layers, num_decoder_layers, dim_feedforward=d_model*4, dropout=dropout, norm_first=False, batch_first=True)
         # 输出层
         self.output_linear = nn.Linear(d_model, n_mel_channels)
+        
+        self.tgt_mask = self.create_look_ahead_mask(max_length_tgt)
         # nn.init.xavier_uniform_(self.output_linear.weight)
         
         
@@ -107,7 +56,7 @@ class TransformerForTTS(nn.Module):
         return model(src=src, tgt=tgt, src_key_padding_mask =src_key_padding_mask, tgt_key_padding_mask=tgt_key_padding_mask, tgt_mask=tgt_mask)
     
     @autocast()
-    def forward(self, src, src_key_padding_mask, tgt, tgt_key_padding_mask, tgt_mask):
+    def forward(self, src, src_key_padding_mask, tgt, tgt_key_padding_mask):
 
         # src = src.transpose(0, 1)
         # tgt = tgt.transpose(0, 1)  # [seq_len_tgt, batch_size]
@@ -125,13 +74,22 @@ class TransformerForTTS(nn.Module):
         
 
         # (tgt_max_length, batch_size, d_model)
-        prediction = checkpoint(self.warp_transform, self.transformer, src, tgt, src_key_padding_mask, tgt_key_padding_mask, tgt_mask)
+        prediction = checkpoint(self.warp_transform, self.transformer, src, tgt, src_key_padding_mask, tgt_key_padding_mask, self.tgt_mask)
         # print("prediction shape:", prediction.shape)    # [16, 77, 512]
 
         # 输出层77 32 32434
         prediction = checkpoint(self.output_linear, prediction)
 
         return prediction
+    
+    def create_look_ahead_mask(self, max_len):
+        """
+        生成前瞻掩码。
+        :param size: 文本序列长度。
+        """
+        mask = (torch.triu(torch.ones((max_len, max_len))) == 1).transpose(0, 1)
+        mask = mask.float().masked_fill(mask == 0, float('-inf')).masked_fill(mask == 1, float(0.0))
+        return mask
     
     def l2_regularization(self, l2_lambda=0):
         l2_reg = torch.tensor(0.0).cuda()

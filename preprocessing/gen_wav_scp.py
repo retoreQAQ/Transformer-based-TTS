@@ -28,7 +28,7 @@ def write_scp_file(file_list, scp_path):
             file_name = os.path.basename(file_path).replace('.wav', '')
             f.write(f"{file_name} {file_path}\n")
             
-wav_dir = '/home/you/workspace/son/database/LJSpeech-1.1/wavs'
+wav_dir = '/home/you/workspace/database/LJSpeech-1.1/wavs'
 wav_files = get_wav_files(wav_dir)
 train_files, val_files, test_files = split_dataset(wav_files)
 write_scp_file(train_files, '/home/you/workspace/son/transformer-based-TTS/feat/train/wav.scp')

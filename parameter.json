@@ -1,0 +1,33 @@
+[
+    {   
+        "this_a_comment_1": "fbank",
+        "feature": "fbank",
+        "n_epoch": 50,
+        "lr": 0.0003,
+        "num_workers": 16,
+        "num_time_steps": 1008,
+        "max_length_src": 1008,
+        "max_length_tgt": 50,
+        "num_encoder_layers": 6,
+        "num_decoder_layers": 6,
+        "fbank": {
+            "n_feature": 80,
+            "d_model": 256,
+            "nhead": 4,
+            "batch_size": 16
+        },
+        "l2_lambda": 0.00,
+        "this_a_comment_2": "MSE cross ctc",
+        "loss_name": "cross",
+        "this_a_comment_3": "sgd adam",
+        "optimizer_name": "adam",
+        "use_checkpoint": true,
+        "feature_folder": {
+            "feat": "feat"
+        },
+        "dataset_path": "/home/you/workspace/database/LJSpeech-1.1",
+        "corpus_path": "/home/you/workspace/son/transformer-based-TTS/preprocessing/corpus_with_id.txt",
+        "sp_model_path": "preprocessing/sentencepiece.model",
+        "vocab_size": 1000
+    }
+]

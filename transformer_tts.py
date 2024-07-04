@@ -10,106 +10,55 @@ from torch.cuda.amp import autocast, GradScaler
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 class Runner(object):
-    def __init__(self, model, optimizer, loss_fun, scaler, dataset):
+    def __init__(self, model, optimizer, loss_fun, scaler):
         self.model = model
         self.optimizer = optimizer
         self.loss_fun = loss_fun
         self.scaler = scaler
-        self.dataset = dataset
-        self.loss = torch.tensor(0).cuda()
-        self.train = None
+        # self.loss = torch.tensor(0).cuda()
         
     def __call__(self, data_loader, train=True, *args: Any, **kwds: Any) -> Any:
-        self.train = train
         torch.autograd.set_detect_anomaly(True)
-        if self.train:
+        loss_all = 0.0
+        if train:
             self.model.train()
             # 将上一步得到的梯度清零
             self.optimizer.zero_grad()
-            return self.shared_process(data_loader)
-        else:
-            self.model.eval()
-            # 避免在evaluation时计算梯度
-            with torch.no_grad():
-                return self.shared_process(data_loader)
-            
-    # @resource_monitor
-    def shared_process(self, data_loader):
-        loss_all = 0.0
-        prediction_int_all = torch.tensor([]).cuda()
-        tgt_sentence_all = []
-        for data in data_loader:
-            src, src_length, tgt, tgt_length, tgt_sentence = data
-            # src = src.permute(1, 0, 2)
-            src = src.cuda()
-            tgt = tgt.cuda()
-            src_key_padding_mask = self.create_padding_mask(src, src_length).cuda()
-            tgt_decoder_mask = self.create_decoder_mask(tgt, tgt_length).cuda()
-            with autocast():
-                # 跑模型
-                prediction, prediction_int = self.model(src, src_key_padding_mask, tgt, tgt_decoder_mask)
-                
-                pred_sentence = self.dataset.int2text(prediction_int)
-                
-                if 'CrossEntropyLoss' in str(self.loss_fun._get_name):
-                    # 交叉熵
-                    # 调整 output_linear 的形状为 [16 * 77, 32434]
-                    # 调整 tgt 的形状为 [16 * 77]
-                    self.loss = self.loss_fun(prediction.view(-1, prediction.size(-1)), tgt.view(-1))
-                if 'CTC' in str(self.loss_fun._get_name):
-                    # ctc
-                    prediction = prediction.transpose(0, 1)
-                    prediction = F.log_softmax(prediction, dim=2)
-                    input_length = torch.full(size=(prediction.shape[1],), fill_value=prediction.shape[0], dtype=torch.long)
-                    self.loss = self.loss_fun(prediction, tgt, input_length, tgt_length)
-                    # 检查是否有 NaN 值
-                nan_check = torch.isnan(self.loss)
-
-                # 如果有 NaN 值，打印警告
-                if torch.any(nan_check):
-                    print("Warning: NaN values detected in the tensor")
-
-            if self.train:
-                self.gradient_monitor()
-                self.scaler.scale(self.loss).backward()
-                self.gradient_monitor()
-                
-                # if math.isinf(self.gradient_monitor()):
-                #     torch.nn.utils.clip_grad_norm_(self.model.parameters(), 10, norm_type='inf')
-                # else:
-                # torch.nn.utils.clip_grad_norm_(self.model.parameters(), 10, error_if_nonfinite=True)
-                
-                
-                
-                # self.gradient_monitor()
+            for data in data_loader:
+                src, src_length, tgt, tgt_length = data
+                src = src.cuda()
+                tgt = tgt.cuda()
+                src_key_padding_mask = self.create_padding_mask(src, src_length).cuda()
+                tgt_key_padding_mask = self.create_padding_mask(tgt, tgt_length).cuda()
+                # 混合精度训练
+                with autocast():
+                    prediction = self.model(src, src_key_padding_mask, tgt, tgt_key_padding_mask)
+                    loss = self.loss_fun(prediction, tgt)
+                self.scaler.scale(loss).backward()          
                 self.scaler.step(self.optimizer)
                 self.scaler.update()
-                
-            # loss_all += loss 会导致训练了几个epoch后出现显存溢出。 If that's the case, you are storing the computation graph in each epoch, which will grow your memory.You need to detach the loss from the computation, so that the graph can be cleared.iter_loss += loss.item() or iter_loss += loss.detach().item()
-            loss_all += self.loss.detach().item()
-            # print(prediction_int_all.size(), prediction_int.size())
-            prediction_int_all = torch.cat((prediction_int_all, prediction_int), dim=0)
-            tgt_sentence_all += list(tgt_sentence)
-        return loss_all, prediction_int_all, tgt_sentence_all
-    
-    def gradient_monitor(self):
-        # 计算所有梯度的 L2 范数
-        total_norm = 0
-        for name, param in self.model.named_parameters():
-            if param.grad is not None:
-                for _ in range(10):
-                    param_norm = param.grad.data.norm(2)
-                    if torch.isinf(param_norm):
-                        param.grad *= 0.1
-                    else:
-                        break
-                total_norm += param_norm.item() ** 2
-                
-                print(f'latye:{name}  value:{param.grad}')
-                print(f'latye:{name}  L2:{param_norm}')
-        total_norm = total_norm ** 0.5
-        print(f"Total gradient norm for this batch: {total_norm}")
-        return total_norm
+                # loss_all += loss 会导致训练了几个epoch后出现显存溢出。 If that's the case, you are storing the computation graph in each epoch, which will grow your memory.You need to detach the loss from the computation, so that the graph can be cleared.iter_loss += loss.item() or iter_loss += loss.detach().item()
+                loss_all += loss.detach().item()
+            return loss_all
+        else:
+            self.model.eval()
+            prediction_all = []
+            label_all = []
+            # 避免在evaluation时计算梯度
+            with torch.no_grad():
+                for data in data_loader:
+                    src, src_length, tgt, tgt_length = data
+                    src = src.cuda()
+                    tgt = tgt.cuda()
+                    src_key_padding_mask = self.create_padding_mask(src, src_length).cuda()
+                    tgt_key_padding_mask = self.create_padding_mask(tgt, tgt_length).cuda()
+                    with autocast():
+                        prediction = self.model(src, src_key_padding_mask, tgt, tgt_key_padding_mask)
+                        loss = self.loss_fun(prediction, tgt)
+                    loss_all += loss.detach().item()
+                    prediction_all.append(prediction)
+                    label_all.append(tgt)
+                return loss_all, prediction_all, label_all
     
     def create_padding_mask(self, seqs, lengths):
         """
@@ -121,45 +70,19 @@ class Runner(object):
         key_padding_mask = torch.ones(batch_size, max_len, dtype=torch.bool)
         for idx, length in enumerate(lengths):
             key_padding_mask[idx, :length] = False
-        # print(f'src_key_padding_mask:{key_padding_mask.shape}')
         return key_padding_mask
 
-    def create_subsequent_mask(self, max_len):
-        """
-        生成前瞻掩码。
-        :param size: 文本序列长度。
-        """
-        mask = torch.triu(torch.ones(max_len, max_len, dtype=torch.bool), diagonal=1)
-        # print(f'subsequent_mask:{mask.shape}')
-        return mask
-    
-    def create_decoder_mask(self, seqs, lengths):
-        batch_size, max_len = seqs.shape
-        # 生成前瞻掩码
-        look_ahead_mask = self.create_subsequent_mask(max_len)  # [size, size]
-        decoder_mask = look_ahead_mask
 
-        use_3d_mask = True
-        if use_3d_mask:
-            # 生成填充掩码
-            tgt_pad_mask = self.create_padding_mask(seqs, lengths)  # [size, size]
-
-            # 通过广播机制结合两个掩码
-            decoder_mask = look_ahead_mask.unsqueeze(0) | tgt_pad_mask.unsqueeze(-1)
-            # 此时需要复制'注意力头数'次，以符合(batchsize*nhead, max_length, max_length)的形状要求
-            decoder_mask = decoder_mask.repeat_interleave(1, dim=0)
-            # print(f'subsequent_mask:{decoder_mask.shape}')
-
-        return decoder_mask
-
-
-def save_param_dict(log_folder, max_length_src, n_feature, max_length_tgt, vocab_size, d_model, nhead, num_encoder_layers, num_decoder_layers, ark_path, dataset_path, vocab_path, batch_size, num_workers, shuffle=True, drop_last=False):
+def save_param_dict(log_folder, max_length_src, max_length_tgt, vocab_size, n_mel_channels, d_model, nhead, num_encoder_layers, num_decoder_layers, ark_path, corpus_path, sp_model_path, batch_size, num_workers, shuffle=True, drop_last=False):
+    '''
+    该函数是为了测试时使用。测试时需要按照训练时的参数初始化模型，然后加载训练好的模型，再进行测试。这里model_dict保存了init时的参数。dataset_dict和dataloader_dict同理。
+    '''
     param_dict = {
         "model_dict":{
             "max_length_src": max_length_src,
-            "n_feature": n_feature,
             "max_length_tgt": max_length_tgt,
             "vocab_size": vocab_size,
+            "n_mel_channels": n_mel_channels,
             "d_model": d_model,
             "nhead": nhead,
             "num_encoder_layers": num_encoder_layers,
@@ -168,9 +91,9 @@ def save_param_dict(log_folder, max_length_src, n_feature, max_length_tgt, vocab
         "dataset_dict":{
             "ark_path": ark_path,
             "max_length_src": max_length_src,
-            "dataset_path": dataset_path,
             "max_length_tgt": max_length_tgt,
-            "vocab_path" : vocab_path
+            "corpus_path" : corpus_path,
+            "sp_model_path": sp_model_path
         },
         "dataloader_dict":{
             "batch_size": batch_size,
@@ -187,8 +110,8 @@ def save_param_dict(log_folder, max_length_src, n_feature, max_length_tgt, vocab
 def main(args, parameter_dict):
     # torch.cuda.empty_cache()
     
-    # 默认为mfcc设置
-    # 时间步长，序列长度，算数据集得到
+    # 默认为fbank设置
+    # 时间步长，数据集中语音序列的实际最大长度
     num_time_steps = parameter_dict["num_time_steps"]
     # 跑几遍数据集
     n_epoch = parameter_dict["n_epoch"]
@@ -205,20 +128,11 @@ def main(args, parameter_dict):
     num_encoder_layers = parameter_dict["num_encoder_layers"]
     num_decoder_layers = parameter_dict["num_decoder_layers"]
     max_length_src = parameter_dict["max_length_src"]
-    max_length_tgt = parameter_dict["max_length_tgt"] + 2
+    max_length_tgt = parameter_dict["max_length_tgt"]
     use_checkpoint = parameter_dict["use_checkpoint"]
     dataset_path = parameter_dict["dataset_path"]
-    vocab_path = parameter_dict["vocab_path"]
-    
-    gpu_name = torch.cuda.get_device_name(0)
-    if gpu_name == "NVIDIA GeForce MX350":
-        device = 'son'
-        num_workers = 0
-        # os.chdir("D:/workspace/yd/")
-    else:
-        device = 'you'
-        num_workers = parameter_dict["num_workers"]
-        # os.chdir("/home/you/workspace/yd_dataset")
+    corpus_path = parameter_dict["corpus_path"]
+    sp_model_path = parameter_dict["sp_model_path"]
                 
     feature_folder_dict = parameter_dict["feature_folder"]
 
@@ -237,11 +151,15 @@ def main(args, parameter_dict):
         ark_path_test = f'{pwd}/{feature_folder}/test/{feature}.ark'
     else:
         raise ValueError(f"Unsupported feature type: {feature}")
+    
+    
+    num_workers = parameter_dict["num_workers"]
+    vocab_size = parameter_dict["vocab_size"]
                 
     
     # 生成数据集
-    dataset_train = LibriSpeechDataset(ark_path_train, max_length_src, dataset_path, max_length_tgt, vocab_path)
-    dataset_val = LibriSpeechDataset(ark_path_val, max_length_src, dataset_path, max_length_tgt, vocab_path)
+    dataset_train = LJSpeechDataset(ark_path_train, max_length_src, max_length_tgt, corpus_path, sp_model_path)
+    dataset_val = LJSpeechDataset(ark_path_val, max_length_src, max_length_tgt, corpus_path, sp_model_path)
         
     # 生成data_loader
     # 这里生成的是一个迭代器,返回值batch在第一个，需要设置lstm类参数batch_first
@@ -249,14 +167,13 @@ def main(args, parameter_dict):
     data_loader_val = DataLoader(dataset_val, batch_size=batch_size, shuffle=False, num_workers=num_workers, drop_last=False)
     
     # for best performance
-    checkpoint_best = ModelCheckpoint(save_path=best_path, monitor='wer', mode='min')
+    checkpoint_best = ModelCheckpoint(save_path=best_path)
     
     evaluator = ModelEvaluator()
         
     # 实例化模型
-    vocab_size = len(dataset_train.word_to_index)
     # print(dataset_train.word_to_index["-"])
-    model = TransformerForTTS(max_length_src, n_feature, max_length_tgt, vocab_size, d_model, nhead, num_encoder_layers, num_decoder_layers)
+    model = TransformerForTTS(max_length_src, max_length_tgt, vocab_size, n_feature, d_model, nhead, num_encoder_layers, num_decoder_layers)
     model = model.cuda()
     trainables = [p for p in model.parameters() if p.requires_grad]
     print('Total parameter number is : {:.3f} k'.format(sum(p.numel() for p in model.parameters()) / 1e3))
@@ -266,66 +183,61 @@ def main(args, parameter_dict):
     # 对批次损失值默认求平均，可以改成sum求和
     if loss_name == 'MSE':
         loss_fun = nn.MSELoss(reduction='mean').cuda()
-    if loss_name == 'cross':
-        loss_fun = nn.CrossEntropyLoss().cuda()
-    if loss_name == 'ctc':
-        loss_fun = nn.CTCLoss(blank=vocab_size-1, zero_infinity=True).cuda()
         
     # 定义优化器
     if optimizer_name == 'adam':
-        # weight_decay: L2正则化    
-        optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=5e-7, betas=(0.95, 0.999))
+        # weight_decay(权重衰减): L2正则化    
+        # betas: # 动量系数，控制一阶和二阶动量的平滑效果,默认为(0.9, 0.999), 越高越平滑，同时可能导致模型对梯度变化反应更慢
+        optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=5e-7, betas=(0.9, 0.999))
     if optimizer_name == 'sgd':
         optimizer = torch.optim.SGD(model.parameters(), lr=lr)
         
+    # 用于混合精度训练（Mixed Precision Training）的工具，通常与自动混合精度（Automatic Mixed Precision, AMP）一起使用。
     scaler = GradScaler()
 
     # 创建ReduceLROnPlateau调度器.
     # 在patience个epoch里没有显著改善，则lr=lr*factor
-    scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=10, verbose=True)
+    scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=20, verbose=True)
     
-    run = Runner(model, optimizer, loss_fun, scaler, dataset_train)
+    run = Runner(model, optimizer, loss_fun, scaler)
     
     # 开始训练
     loss_train_list = []
     loss_val_list = []
-    best = 'none'
-    best_wer = 'none'
+    best = None
+    best_eval_index_value = 0
     
     for epoch in range(n_epoch):
         # torch.cuda.empty_cache()
         # 训练
         print(f'\n\nepoch: {epoch+1}\nThe performance in the dataset_train:')
-        loss_train, _, _ = run(data_loader_train)
+        loss_train = run(data_loader_train)
         loss_train_list.append(loss_train)
         print(f'The loss of train: {loss_train:.5f}')
         # 验证
         print('The performance in the dataset_val:')
-        loss_val, prediction, tgt_sentence = run(data_loader_val, train=False)
+        loss_val, prediction_all, label_all = run(data_loader_val, train=False)
         loss_val_list.append(loss_val) 
-        print(f"The loss of val: {loss_val:.4f}\n")
+        print(f"The loss of val: {loss_val:.5f}\n")
         # 根据loss调整lr
         scheduler.step(loss_train)
-        # eval
-        pred_sentence = dataset_train.int2text(prediction)
-        # print(len(pred_sentence))
-        wer, cer, mer, wil = evaluator.asr_metrics(pred_sentence, tgt_sentence, best_path)
-        performence = f'Performance:\nepoch: {epoch}\nWER: {wer:.4f}\nCER: {cer:.4f}\nMER: {mer:.4f}\nWIL: {wil:.4f}\n'
-        print(performence)
+        mcd, sc = evaluator.evaluate_tts(prediction_all, label_all)
+        # performence = f'Performance:\nepoch: {epoch}\nWER: {wer:.4f}\nCER: {cer:.4f}\nMER: {mer:.4f}\nWIL: {wil:.4f}\n'
+        # print(performence)
         # save best 
-        if checkpoint_best.save_best(model, optimizer, feature, epoch=epoch, current_value=wer):
-            save_param_dict(best_path, max_length_src, n_feature, max_length_tgt, vocab_size, d_model, nhead, num_decoder_layers, num_decoder_layers, ark_path_test, dataset_path, vocab_path, batch_size, num_workers)
-            best_wer = wer
-            best = performence
+        if checkpoint_best.save_best(model, optimizer, epoch, mcd):
+            save_param_dict(best_path, max_length_src, max_length_tgt, vocab_size, n_feature, d_model, nhead, num_decoder_layers, num_decoder_layers, ark_path_test, corpus_path, sp_model_path, batch_size, num_workers)
+            best_eval_index_value = mcd
+            best = f'best mcd:{mcd}, sc:{sc}'
 
     
     evaluator.draw_curve(log_folder,loss_train_list, 'loss_train')
     evaluator.draw_curve(log_folder, loss_val_list, 'loss_val')
 
     print(f'\n\n\nThe hyperparameter list:\n{parameter_dict}')
-    print(f'Best {best}')
+    print(best)
     
-    return best_wer
+    return best_eval_index_value
         
     
 if __name__ == "__main__":

@@ -8,7 +8,8 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, confusion_matrix
 import seaborn as sns
 import sentencepiece as spm
-from jiwer import wer, cer, mer, wil
+from models import *
+from transformer_tts import Runner
 sys.path.append('utils')
 # from char import *
 
@@ -44,7 +45,7 @@ def resource_monitor(func):
     return wrapper
 
 
-class LibriSpeechDataset(Dataset):
+class LJSpeechDataset(Dataset):
     # @resource_monitor
     def __init__(self, ark_path, max_length_src, max_length_tgt, corpus_path, sp_model_path):
         super(Dataset, self).__init__()
@@ -110,14 +111,14 @@ class Logger(object):
         self.log.flush()
         
 class ModelCheckpoint(object):
-    def __init__(self, save_path, monitor='pcc', mode='max', which_dataset=None):
+    def __init__(self, save_path, monitor='mcd', mode='min', which_dataset=None):
         self.save_path = save_path
         self.model_path = os.path.join(self.save_path, 'model.pth')
         self.monitor = monitor
         self.mode = mode
         self.best_value = -float('inf') if mode == 'max' else float('inf')
 
-    def save_best(self, model, optimizer, feature, which_dataset=None, epoch=None, current_value=None):
+    def save_best(self, model, optimizer, epoch, current_value):
         if self._is_improvement(current_value):
             print(f"{self.monitor} improved at epoch {epoch}: {current_value}. Saving model...\n\n")
             self.best_value = current_value
@@ -127,8 +128,6 @@ class ModelCheckpoint(object):
                 'model_state_dict': model.state_dict(),
                 'optimizer_state_dict': optimizer.state_dict(),
                 'best_value': self.best_value,
-                'dataset': which_dataset,
-                'feature': feature,
                 'epoch': epoch
             }, self.model_path)
             return True
@@ -139,31 +138,30 @@ class ModelCheckpoint(object):
         #     return False
         return (current_value > self.best_value) if self.mode == 'max' else (current_value < self.best_value)
 
+
+from scipy.spatial.distance import euclidean
 class ModelEvaluator(object):
     def __init__(self):
         pass
     
-    def asr_metrics(self, predictions_words, labels_words, save_path, task='ASR'):
-        # 计算字词错误率（WER）
-        word_error_rate = wer(labels_words, predictions_words)
-
-        # 计算字符错误率（CER）
-        char_error_rate = cer(labels_words, predictions_words)
-
-        # 计算匹配错误率（MER）
-        match_error_rate = mer(labels_words, predictions_words)
-
-        # 计算字词信息丢失率（WIL）
-        word_info_lost = wil(labels_words, predictions_words)
-
-        metrics_data = {
-            "WER": word_error_rate,
-            "CER": char_error_rate,
-            "MER": match_error_rate,
-            "WIL": word_info_lost
-        }
-        self.draw_table(metrics_data, save_path, task)
-        return word_error_rate, char_error_rate, match_error_rate, word_info_lost
+    def evaluate_tts(self, predictions, labels, save_path):
+        total_mcd = 0.0
+        total_sc = 0.0
+        num_samples = len(predictions)
+        for pred, real in zip(predictions, labels):
+            # Mel Cepstral Distortion (MCD)衡量预测的梅尔频谱与真实梅尔频谱之间差异的常用指标。MCD 越小，表示预测的梅尔频谱越接近真实的梅尔频谱。
+            diff = real - pred
+            mcd = np.mean(np.sqrt(np.sum(diff ** 2, axis=1)))
+            total_mcd += mcd
+            # Spectral Convergence (SC)衡量预测的频谱与真实频谱之间的差异。通常是使用 STFT 频谱进行计算。预测信号的频谱越接近目标信号，SC 的值越接近于 1。如果预测信号与目标信号完全相同，则 SC 的值为 1。
+            numerator = np.linalg.norm(real - pred, 'fro')
+            denominator = np.linalg.norm(real, 'fro')
+            sc = numerator / denominator
+            total_sc += sc
+        # 计算整个验证集的平均值
+        average_mcd = total_mcd / num_samples
+        average_sc = total_sc / num_samples
+        return average_mcd, average_sc
         
 
     def evaluate_single_value(self, y_pred, y_true):
@@ -263,3 +261,35 @@ class ModelEvaluator(object):
         plt.close()
         
         
+class TestModel(object):
+    def __init__(self, test_folder='test_model', pth_file_name='model.pth', param_dict_file_name='param_dict.json'):
+        
+        self.folder_path = os.path.join(os.getcwd(), test_folder)
+        if not os.path.exists(self.folder_path):
+            os.makedirs(self.folder_path)
+            print('created directory, put files into it.')
+            exit(1)
+        self.model_path = os.path.join(self.folder_path, pth_file_name)
+        self.param_dict_path = os.path.join(self.folder_path, param_dict_file_name)
+        with open(self.param_dict_path, 'r') as f:
+            self.param_dict = json.load(f)
+        self.evaluator = ModelEvaluator()
+
+    def load(self, Dataset, DataLoader):
+            
+        model = TransformerForTTS(**self.param_dict["model_dict"]).cuda()
+        state_dict = torch.load(self.model_path)
+        model.load_state_dict(state_dict['model_state_dict'])
+        model.eval()
+        dataset_test = Dataset(**self.param_dict["dataset_dict"])
+        data_loader_test = DataLoader(dataset_test, **self.param_dict["dataloader_dict"])
+
+        # 此处根据情况修改
+        with torch.no_grad():
+            run = Runner(model=model, optimizer=None, loss_fun=None, scaler=None)
+            _, prediction_all, label_all = run(data_loader=data_loader_test, train=False)
+                
+        mcd, sc = self.evaluator.evaluate_tts(prediction_all, label_all)
+
+        with open(f'{self.folder_path}/log.txt', "w") as f:
+            f.write(f'mcd:{mcd}\nsc:{sc}\n\n\n{self.param_dict.get("parameter_dict")}')
