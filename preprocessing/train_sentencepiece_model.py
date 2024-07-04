@@ -1,0 +1,3 @@
+import sentencepiece as spm
+# The user_defined_symbols parameter function allows you to specify custom tokens that you want to include in your vocabulary, regardless of their frequency in the training data.
+spm.SentencePieceTrainer.train(input='/home/you/workspace/son/transformer-based-TTS/preprocessing/corpus.txt', model_prefix='sentencepiece', vocab_size=1000, character_coverage=1.0, model_type='bpe', user_defined_symbols=[], pad_id=0, pad_piece='<pad>', unk_id=3)
