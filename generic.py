@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, confusion_matrix
 import seaborn as sns
 import sentencepiece as spm
-from models import *
+from models import TransformerForTTS
 from transformer_tts import Runner
 sys.path.append('utils')
 # from char import *
@@ -74,13 +74,14 @@ class LJSpeechDataset(Dataset):
         for feat_uttid in src_feats_list:
             
             tgt = feat_uttid[0]
-            tgt = F.pad(tgt, (0, 0, 0, self.max_length_tgt - tgt_length), 'constant', 0) if tgt_length <= self.max_length_tgt else tgt[:self.max_length_tgt]
             tgt_length = tgt.shape[0]
+            tgt = F.pad(tgt, (0, 0, 0, self.max_length_tgt - tgt_length), 'constant', 0) if tgt_length <= self.max_length_tgt else tgt[:self.max_length_tgt]
+            
             
             uttid = feat_uttid[1]
-            src = self.sp.encode(self.id_trans_dict[uttid])
-            src_length = len(src)
-            src = F.pad(src, (0, 0, 0, self.max_length_src - src_length), 'constant', 0) if src_length <= self.max_length_src else src[:self.max_length_src]
+            src = torch.tensor(self.sp.encode(self.id_trans_dict[uttid]))
+            src_length = src.shape[0]
+            src = F.pad(src, (0, self.max_length_src - src_length), 'constant', 0) if src_length <= self.max_length_src else src[:self.max_length_src]
 
             src_tgt = [src, src_length, tgt, tgt_length]
             src_tgt_list.append(src_tgt)
@@ -144,18 +145,20 @@ class ModelEvaluator(object):
     def __init__(self):
         pass
     
-    def evaluate_tts(self, predictions, labels, save_path):
+    def evaluate_tts(self, prediction_all, label_all, save_path=None):
+        prediction_all = torch.cat(prediction_all, dim=0)
+        label_all = torch.cat(label_all, dim=0)
         total_mcd = 0.0
         total_sc = 0.0
-        num_samples = len(predictions)
-        for pred, real in zip(predictions, labels):
+        num_samples = len(prediction_all)
+        for pred, real in zip(prediction_all, label_all):
             # Mel Cepstral Distortion (MCD)衡量预测的梅尔频谱与真实梅尔频谱之间差异的常用指标。MCD 越小，表示预测的梅尔频谱越接近真实的梅尔频谱。
             diff = real - pred
-            mcd = np.mean(np.sqrt(np.sum(diff ** 2, axis=1)))
+            mcd = torch.mean(torch.sqrt(torch.sum(diff ** 2, axis=1)))
             total_mcd += mcd
             # Spectral Convergence (SC)衡量预测的频谱与真实频谱之间的差异。通常是使用 STFT 频谱进行计算。预测信号的频谱越接近目标信号，SC 的值越接近于 1。如果预测信号与目标信号完全相同，则 SC 的值为 1。
-            numerator = np.linalg.norm(real - pred, 'fro')
-            denominator = np.linalg.norm(real, 'fro')
+            numerator = torch.norm(real - pred, p='fro')
+            denominator = torch.norm(real, p='fro')
             sc = numerator / denominator
             total_sc += sc
         # 计算整个验证集的平均值

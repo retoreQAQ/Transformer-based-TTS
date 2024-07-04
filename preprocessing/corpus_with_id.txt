@@ -792,8 +792,8 @@ LJ003-0268 this delectable society enticed into their set a clerk who had been i
 LJ003-0269 and offered him half the booty if he would give full information as to the transactions and correspondence of his late employers.
 LJ003-0270 owing to the facility of intercourse between inside and outside, many crimes were doubtless hatched in newgate.
 LJ003-0271 some of the worst and most extensive burglaries were planned there.
-LJ003-0273 i believe, says mr. bennet in the letter already largely quoted,
-LJ003-0274 that there is no place in the metropolis where more crimes are projected or where stolen property is more secreted than in newgate.
+LJ003-0273 "i believe," says mr. bennet in the letter already largely quoted,
+LJ003-0274 "that there is no place in the metropolis where more crimes are projected or where stolen property is more secreted than in newgate."
 LJ003-0275 these malpractices were fostered by the absence of all supervision and the generally unbroken idleness.
 LJ003-0276 although attempted partially at bridewell, and more systematically at the new millbank penitentiary,
 LJ003-0277 but just open (eighteen sixteen), the regular employment of prisoners had never yet been accepted as a principle in the metropolitan prisons.
@@ -927,11 +927,11 @@ LJ004-0056 mr. buxton's small work on prison discipline gave a new aspect to the
 LJ004-0057 for the first time the doctrine was enunciated that prisoners had rights of their own.
 LJ004-0058 the untried, and in the eyes of the law still innocent, could claim pure air, wholesome and sufficient food, and opportunities for exercise.
 LJ004-0059 they had a right, mr. buxton affirmed, to be employed in their own crafts, provided it could be safely followed in prison.
-LJ004-0060 you have no right, he says, addressing the authorities, "to subject a prisoner to suffering from cold,
+LJ004-0060 "you have no right," he says, addressing the authorities, "to subject a prisoner to suffering from cold,
 LJ004-0061 by want of bed-clothing by night or firing by day
 LJ004-0062 and the reason is plain: you have taken him from his home, and have deprived him of the means of providing himself with the necessaries or comforts of life,
 LJ004-0063 and therefore you are bound to furnish him with moderate indeed but suitable accommodation."
-LJ004-0064 you have for the same reason, he goes on, "no right to ruin his habits by compelling him to be idle,
+LJ004-0064 "you have for the same reason," he goes on, "no right to ruin his habits by compelling him to be idle,
 LJ004-0065 his morals by compelling him to mix with a promiscuous assemblage of hardened and convicted criminals,
 LJ004-0066 or his health by forcing him at night into a damp, unventilated cell, with such crowds of companions as very speedily render the air foul and putrid;
 LJ004-0067 or to make him sleep in close contact with the victims of contagious and loathsome disease,
@@ -942,9 +942,11 @@ LJ004-0071 nor even when found guilty and his liberty forfeited did his privileg
 LJ004-0072 it was for those charged with the administration of the law to guard carefully against any aggravation of that punishment,
 LJ004-0073 to see that "no circumstances of severity are found in his treatment which are not found in his sentence."
 LJ004-0074 no judge ever condemned a man to be half-perished with cold by day, or half-suffocated with heat by night.
-LJ004-0075 who ever heard of a criminal being sentenced to catch the rheumatism or the typhus fever?
+LJ004-0075 "who ever heard of a criminal being sentenced to catch the rheumatism or the typhus fever?"
+LJ004-0076 "disease, cold, famine, nakedness, and contagious and polluted air are not lawful punishments in the hands of the civil magistrates;
 LJ004-0077 nor has he a right to poison or starve his fellow-creatures."
-LJ004-0078 the convicted delinquent has his rights, said mr. buxton authoritatively.
+LJ004-0078 "the convicted delinquent has his rights," said mr. buxton authoritatively.
+LJ004-0079 "all measures and practices in prison which may injure him in any way are illegal,
 LJ004-0080 because they are not specified in his sentence; he is therefore entitled to a wholesome atmosphere,
 LJ004-0081 decent clothing and bedding, and a diet sufficient to support him."
 LJ004-0082 these somewhat novel but undoubtedly indisputable propositions were backed up, not by sound arguments only, but by the letter of the law.
@@ -981,7 +983,7 @@ LJ004-0112 three. prisoners guilty of misdemeanors. four. prisoners charged with
 LJ004-0113 it was further ordered that male prisoners should be kept perfectly distinct from the females.
 LJ004-0114 king's evidences were also to be lodged apart.
 LJ004-0115 infirmaries separating the sexes were also to be provided, a chapel too, and warm and cold baths.
-LJ004-0116 care also was to be taken that the prisoners shall not be kept in any apartment underground.
+LJ004-0116 "care also was to be taken that the prisoners shall not be kept in any apartment underground."
 LJ004-0117 in an early report of the prison discipline improvement society,
 LJ004-0118 published some six-and-thirty years after the promulgation of this act, the flagrant and persistent violations of it and others
 LJ004-0119 which had continued through that long period, are forcibly pointed out.
@@ -1004,7 +1006,7 @@ LJ004-0135 twenty men slept on eight straw beds, with sixteen rugs amongst them,
 LJ004-0136 mr. buxton, who found this, declared that it seemed physically impossible, but he was assured that it was true,
 LJ004-0137 and that it was accomplished by "sleeping edgewise."
 LJ004-0138 one poor wretch, who had slept next the wall, said he had been literally unable to move for the pressure.
-LJ004-0139 in the morning the stench and heat were so oppressive that he and every one else on waking rushed unclothed into the yard;
+LJ004-0139 "in the morning the stench and heat were so oppressive that he and every one else on waking rushed unclothed into the yard;"
 LJ004-0140 and the turnkey told mr. buxton that the "smell on first opening the door was enough to knock down a horse.
 LJ004-0141 the hospital was filled with infectious cases, and in one room, seven feet by nine, with closed windows,
 LJ004-0142 where a lad lay ill with fever, three other prisoners, at first perfectly healthy, were lodged. of course they were seized with the fever;
@@ -1026,7 +1028,7 @@ LJ004-0157 all charged with felony were in heavy irons, without distinction of a
 LJ004-0158 all were in ill health; almost all were in rags; almost all were filthy in the extreme.
 LJ004-0159 the state of the prison, the desperation of the prisoners, broadly hinted in their conversation and plainly expressed in their conduct,
 LJ004-0160 the uproar of oaths, complaints, and obscenity,
-LJ004-0161 the indescribable stench, presented together a concentration of the utmost misery and the utmost guilt.
+LJ004-0161 "the indescribable stench," presented together a concentration of the utmost misery and the utmost guilt.
 LJ004-0162 it was "a scene of infernal passions and distresses," says buxton, "which few have imagination sufficient to picture,
 LJ004-0163 and of which fewer still would believe that the original is to be found in this enlightened and happy country."
 LJ004-0164 there was still worse to come. having explored the yards and adjacent day rooms, and sleeping cells, a door was unlocked,
@@ -1115,6 +1117,7 @@ LJ004-0246 they used their own tools, and this without any dangerous consequence
 LJ004-0247 thus disposing of the objection so long raised against the industrial employment of prisoners in newgate.
 LJ004-0248 but this boon of toil was denied to all but a very limited number.
 LJ004-0249 as the prison discipline society pertinently observed in a report dated eighteen twenty,
+LJ004-0250 "it is obvious that reformation must be materially impeded, and in some cases utterly defeated, when the prisoners are defectively classed,
 LJ005-0001 the chronicles of newgate, volume two. by arthur griffiths. section eight: the beginnings of prison reform.
 LJ005-0002 newgate prisoners were the victims to another most objectionable practice which obtained all over london.
 LJ005-0003 persons committed to a metropolitan jail at that time were taken in gangs, men and women handcuffed together, or linked on to a long chain,
@@ -1139,10 +1142,12 @@ LJ005-0021 who, in a caustic article contributed to the 'edinburgh review,' prot
 LJ005-0022 while fully admitting the good intentions of the society, he condemned their ultra humanitarianism as misplaced.
 LJ005-0023 he took exception to various of the proposals of the society. he thought they leant too much to a system of indulgence and education in jails.
 LJ005-0024 he objected to the instruction of prisoners in reading and writing.
-LJ005-0025 a poor man who is lucky enough, he said, "to have his son committed for a felony
+LJ005-0025 "a poor man who is lucky enough," he said, "to have his son committed for a felony
 LJ005-0026 educates him under such a system for nothing, while the virtuous simpleton who is on the other side of the wall is paying by the quarter for these attainments."
 LJ005-0027 he was altogether against too liberal a diet; he disapproved of industrial occupations in jails, as not calculated to render prisons terrible.
+LJ005-0028 "there should be no tea and sugar, no assemblage of female felons around the washing-tub,
 LJ005-0029 nothing but beating hemp and pulling oakum and pounding bricks -- no work but what was tedious, unusual."
+LJ005-0030 "in prisons, which are really meant to keep the multitude in order, and to be a terror to evil-doers, there must be no sharings of profits,
 LJ005-0031 no visiting of friends, no education but religious education, no freedom of diet,
 LJ005-0032 no weavers' looms or carpenters' benches. there must be a great deal of solitude, coarse food, a dress of shame,
 LJ005-0033 hard, incessant, irksome, eternal labor, a planned and regulated and unrelenting exclusion of happiness and comfort.
@@ -1178,7 +1183,7 @@ LJ005-0062 experience has since shown that in some respects these plans are defe
 LJ005-0063 it was thought that this would guarantee constant supervision and inspection, but it did nothing of the kind, and only the presence of warders on duty
 LJ005-0064 is found now-a-days to be really efficacious. the main recommendations, however, are based upon common sense
 LJ005-0065 and none are more commendable than that which deprecates the excessive ornamentation of the external parts of the edifice.
-LJ005-0066 the new jails, as howard says, "having pompous fronts, appear like palaces to the lower class of people, and many persons are against them on this account."
+LJ005-0066 "the new jails," as howard says, "having pompous fronts, appear like palaces to the lower class of people, and many persons are against them on this account."
 LJ005-0067 the prison society reproves the misdirected efforts of ambitious architects, who by a lavish and improvident expenditure of public money
 LJ005-0068 sought to "rank the prisons they built among the most splendid buildings of the city or town."
 LJ005-0069 absence of embellishment is in perfect unison with the character of the establishment.
@@ -1189,12 +1194,13 @@ LJ005-0073 to its efforts, and their effect upon parliament and the public mind,
 LJ005-0074 cap. sixty-four, and five george the fourth cap. eighty-five
 LJ005-0075 which having gone through several sessions, at last became law in eighteen twenty-three to four
 LJ005-0076 by the preamble of the first-named act it was declared
+LJ005-0077 "expedient to introduce such measures and arrangements as shall not only provide for the safe custody,
 LJ005-0078 but shall also tend more effectually to preserve the health
 LJ005-0079 and improve the morals of the prisoners, and shall insure the proper measure of punishment to convicted offenders.
 LJ005-0080 accordingly due provision was made for the enforcement of hard labor on all prisoners sentenced to it, and for the employment of all others.
 LJ005-0082 unless such ability (to work) should cease by reason of sickness, infirmity, the want of sufficient work, or from any other cause.
 LJ005-0083 it was distinctly laid down that male and female prisoners should be confined in separate buildings or parts of the prison,
-LJ005-0084 so as to prevent them from seeing, conversing, or holding any intercourse with each other.
+LJ005-0084 "so as to prevent them from seeing, conversing, or holding any intercourse with each other."
 LJ005-0085 classification was insisted upon, in the manner laid down by the twenty-four george the third cap. fifty-four,
 LJ005-0086 with such further separation as the justices should deem conducive to good order and discipline.
 LJ005-0087 female prisoners were in all cases to be under the charge of female officers.
@@ -1239,7 +1245,7 @@ LJ005-0125 or to reappropriate, reconstruct, and patch up the existing prisons t
 LJ005-0126 religious worship became more generally the rule; chaplains were appointed, and chapels provided for them; surgeons and hospitals also.
 LJ005-0127 workshops were built at many prisons, various kinds of manufactures and trades were set on foot, including weaving, matting, shoe-making, and tailoring.
 LJ005-0128 the interior of one prison was illuminated throughout with gas, -- still a novelty, which had been generally adopted in london only four years previously,
-LJ005-0129 a measure which must greatly tend to discourage attempts to escape.
+LJ005-0129 "a measure which must greatly tend to discourage attempts to escape."
 LJ005-0130 there were tread-wheels at most of the prisons, and regular employment thereon or at some other kind of hard labor.
 LJ005-0131 in many places too where the prisoners earned money by their work, they were granted a portion of it for their own use after proper deduction for maintenance.
 LJ005-0132 only a few glaring evils still demanded a remedy.
@@ -1278,7 +1284,7 @@ LJ005-0164 when the new acts were introduced, numerous prisons under local juris
 LJ005-0165 they were so radically bad that reform seemed hopeless, and it was thought wiser not to bring them under provisions which clearly could not be enforced.
 LJ005-0166 mr. peel, who as home secretary had charge of the bill,
 LJ005-0167 which became the four george the fourth cap. sixty-four, said that he had abstained from legislating for these small jurisdictions "on mature deliberation."
-LJ005-0168 it is not, he said, "that i am insensible of the lamentable and disgraceful situation in which many of them are,
+LJ005-0168 "it is not," he said, "that i am insensible of the lamentable and disgraceful situation in which many of them are,
 LJ005-0169 but i indulge a hope that many of them will contract with the counties,
 LJ005-0170 that many of them will build new jails, and that when in a year or two we come to examine their situation,
 LJ005-0171 we shall find but few which have not in one or other of these ways removed the grievance of which such just complaint is made.
@@ -1363,6 +1369,7 @@ LJ005-0249 from the moment of a person's committal he was certain to be plunged 
 LJ005-0250 the prisoners were crowded together in the jail, contrary to the requirements of the four george the fourth
 LJ005-0251 again in eighteen thirty-five prisons and their inmates became once more the care of the senate, and the subject was taken up this time by the house of lords.
 LJ005-0252 a committee was appointed, under the presidency of the duke of richmond
+LJ005-0253 "to inquire into and report upon the several jails and houses of correction in the counties, cities, and corporate towns within england and wales
 LJ005-0254 upon the rules and discipline therein established with regard to the treatment of unconvicted as well as convicted persons."
 LJ005-0255 the committee was also to report upon the manner in which sentences were carried out, and to recommend any alterations necessary in the rules
 LJ005-0256 in order to insure uniformity of discipline. it met on the thirty-first march, eighteen thirty-five, and continued its sittings well into july
@@ -1391,6 +1398,7 @@ LJ005-0278 which was eventually to replace the attempted arrangement of prisoner
 LJ005-0279 an incomplete and fallacious method of preventing contamination.
 LJ005-0280 the lords' committee fully recognized the painful fact
 LJ005-0281 that the greatest mischief followed from the intercourse which was still permitted in so many prisons; to use its words,
+LJ005-0282 "the comparatively innocent are seduced, the unwary are entrapped,
 LJ005-0283 and the tendency to crime in offenders not entirely hardened is confirmed by the language, the suggestions, and the example
 LJ005-0284 of more depraved and systematic criminals.
 LJ005-0285 this committee, as well as the one preceding it, also reported in terms of strong reprobation on the small prisons and jails
@@ -1445,7 +1453,7 @@ LJ006-0033 the ink was barely dry upon their letters of appointment before they 
 LJ006-0034 they attended early and late; they mustered the prisoners, examined into their condition,
 LJ006-0035 took voluminous evidence from all classes of individuals, from the governor down to the convict in the condemned cells.
 LJ006-0036 they visited the wards after locking-up time, and saw with their own eyes what went on.
-LJ006-0038 a subject of magnitude and importance sufficient to exclude other jails, they soon narrowed their inquiry still further,
+LJ006-0038 "a subject of magnitude and importance sufficient to exclude other jails," they soon narrowed their inquiry still further,
 LJ006-0039 and limited it to newgate alone. newgate indeed became the sole theme of their first report.
 LJ006-0040 the fact was that the years as they passed, nearly twenty in all, had worked but little permanent improvement in this detestable prison.
 LJ006-0041 changes introduced under pressure had been only skin deep.
@@ -1474,7 +1482,7 @@ LJ006-0063 minor offenders charged with small thefts or non-payment of small sum
 LJ006-0064 in the master's side yard, which had only one washing place, as many as seventy-eight prisoners, frequently more,
 LJ006-0065 were associated together, "of every variety of age, habit, and delinquency, without employment, oversight, or control."
 LJ006-0066 in the middle yard it was still worse.
-LJ006-0067 here, say the inspectors, "are herded together the very worst class of prisoners; certainly a more wretched combination of human beings can hardly be imagined.
+LJ006-0067 "here," say the inspectors, "are herded together the very worst class of prisoners; certainly a more wretched combination of human beings can hardly be imagined.
 LJ006-0068 we have reason to fear that poverty, ragged clothes, and an inability to pay the ward dues, elsewhere exacted for better accommodation,
 LJ006-0069 consign many of the more petty and unpracticed offenders to this place,
 LJ006-0070 where they inevitably meet with further contamination from the society of the most abandoned and incorrigible inmates of the jail."
@@ -1490,6 +1498,7 @@ LJ006-0079 the inspectors found that prisoners had their places assigned to them
 LJ006-0080 by the inner gatesman, himself a convicted prisoner, and a "wardsman" or responsible head of a room.
 LJ006-0081 the wardsman still exacted dues, of which more directly,
 LJ006-0082 and this particular official took excellent care to select as residents for his own ward those most suitable from his own point of view.
+LJ006-0083 "so great is the authority exercised by him,
 LJ006-0084 and so numerous were his opportunities of showing favoritism, that all the prisoners may be said to be in his power.
 LJ006-0085 if a man is poor and ragged, however inexperienced in crime, or however trifling may be the offense for which he has been committed
 LJ006-0086 his place is assigned among the most depraved, the most experienced, and the most incorrigible offenders in the middle yard.
@@ -1642,8 +1651,9 @@ LJ006-0232 more often they occurred at night, and were continued to the bitter e
 LJ006-0233 the prisoners in this way administered serious punishment on one another. black eyes and broken noses were always to be seen.
 LJ006-0234 more cruel injuries were common enough, which did not result from honest hand-to-hand fights.
 LJ006-0235 the surgeon's journal produced to the inspectors contained numerous entries of terrible wounds inflicted in a cowardly way.
-LJ006-0236 a serious accident: one of the prisoners had a hot poker run into his eye.
-LJ006-0237 a lad named matthew white has had a wound in his eye by a bone thrown at him, which very nearly destroyed vision.
+LJ006-0236 "a serious accident: one of the prisoners had a hot poker run into his eye."
+LJ006-0237 "a lad named matthew white has had a wound in his eye by a bone thrown at him, which very nearly destroyed vision."
+LJ006-0238 "there was a disturbance in the transport yard yesterday evening, and the police were called in.
 LJ006-0239 during the tumult a prisoner, who was one of the worst of the rioters, was bruised about the head and body.
 LJ006-0240 watkins' knee-joint is very severely injured.
 LJ006-0241 a prisoner baxter is in the infirmary in consequence of a severe injury to his wrist-joint.
@@ -1733,8 +1743,8 @@ LJ007-0016 it tended to "dissipate reflection, diminish the gloom of the prison,
 LJ007-0017 it is to be feared too that although the surface was thus whitewashed and decorous, much that was vicious still festered and rankled beneath,
 LJ007-0018 and that when the restraining influences of the ladies were absent, the female prisoners relapsed into immoral and uncleanly discourse.
 LJ007-0019 even in the daytime, when supervision was withdrawn, "the language used to be dreadful," says one of the women when under examination;
-LJ007-0020 swearing and talking of what crimes they had committed, and how they had done it. another witness declared she had heard the most shocking language in the yard; she said
-LJ007-0021 she had never witnessed such scenes before, and hopes she never shall again -- it was dreadful!
+LJ007-0020 "swearing and talking of what crimes they had committed, and how they had done it." another witness declared she had heard the most shocking language in the yard; she said
+LJ007-0021 "she had never witnessed such scenes before, and hopes she never shall again -- it was dreadful!"
 LJ007-0022 after locking-up time, which varied, as on the male side, according to the daylight, the scenes were often riotous and disgraceful.
 LJ007-0023 the poor, who could afford no luxuries, went to bed early, but were kept awake by the revelries of the rich,
 LJ007-0024 who supped royally on the supplies provided from outside, and kept it up till ten or eleven o'clock.
@@ -1760,13 +1770,13 @@ LJ007-0043 were associated continually with a number of those who could look wit
 LJ007-0044 the latter, light-hearted and reckless, conducted themselves in the most unseemly fashion, and "with as much indifference as the inmates of the other parts of the prison."
 LJ007-0045 they amused themselves after their own fashion; played all day long at blind-man's-buff and leap-frog, or beat each other with a knotted handkerchief,
 LJ007-0046 laughing and uproarious, utterly unmindful of the companionship of men upon whom lay the shadow of an impending shameful death.
-LJ007-0047 men whose cases were dangerous, and those most seriously inclined, complained of these annoyances,
+LJ007-0047 "men whose cases were dangerous, and those most seriously inclined, complained of these annoyances,"
 LJ007-0048 so subversive of meditation, so disturbing to the thoughts;
 LJ007-0049 they suffered sickening anxiety, and wished to be locked up alone. this indiscriminate association lasted for months,
 LJ007-0050 during the whole of which time the unhappy convicts who had but little hope of commutation were exposed to the mockery of their reckless associates.
 LJ007-0051 the brutal callousness of the bulk of the inmates of the press-yard may be gathered from the prison punishment-book, which frequently recorded such entries as the following:
 LJ007-0052 benjamin vines and daniel ward put in irons for two days for breaking the windows of the day room in the condemned cells.
-LJ007-0053 joseph coleman put in irons for three days for striking one of the prisoners, in the same place.
+LJ007-0053 "joseph coleman put in irons for three days for striking one of the prisoners," in the same place.
 LJ007-0054 there were disputes and quarrels constantly among these doomed men; it was a word and blow, an argument clenched always with a fight.
 LJ007-0055 the more peaceably disposed found some occupation in making newgate tokens,
 LJ007-0056 leaden hearts, and "grinding the impressions off penny-pieces, then pricking figures or words on them to give to their friends as memorials.
@@ -1840,7 +1850,8 @@ LJ007-0123 and the inspectors expressed themselves still more strongly in repreh
 LJ007-0124 the infirmary at this particular period epitomized the condition of the jail at large.
 LJ007-0125 it was diverted from its proper uses, and, as the "place of the greatest comfort," was allotted to persons who should not have been sent to newgate at all.
 LJ007-0126 all the evils of indiscriminate association were strongly accentuated by the crowd collected within its narrow limits.
-LJ007-0127 it may easily be imagined, say the inspectors, in speaking of the prison generally,
+LJ007-0127 "it may easily be imagined," say the inspectors, in speaking of the prison generally,
+LJ007-0128 "what must be the state of discipline in a place filled with characters so various as were assembled there, where the tried and the untried, the sick and the healthy,
 LJ007-0129 the sane and the insane, the young and the old, the trivial offender and the man about to suffer the extreme penalty of the law,
 LJ007-0130 are all huddled together without discrimination, oversight, or control."
 LJ007-0131 enough has probably been extracted from this most damnatory report to give a complete picture of the disgraceful state in which newgate still remained in eighteen thirty-five.
@@ -1855,6 +1866,7 @@ LJ007-0139 again, the discipline commonly deemed inseparable from every place of
 LJ007-0140 the primary object of committing a prisoner to jail, as the inspectors pointed out, was to deter not only the criminal himself, but others from crime,
 LJ007-0141 and "to dispose him, by meditation and seclusion, to return to an honest life."
 LJ007-0142 but at newgate the convicted prisoner, instead of privation and hard fare,
+LJ007-0143 "is permitted to purchase whatever his own means or the means of his friends in or out of prison can afford,
 LJ007-0144 and he can almost invariably procure the luxuries of his class of life, beer and tobacco, in abundance.
 LJ007-0145 instead of seclusion and meditation, his time is passed in the midst of a body of criminals of every class and degree, in riot, debauchery, and gaming,
 LJ007-0146 vaunting his own adventures, or listening to those of others;
@@ -1879,7 +1891,7 @@ LJ007-0164 forbid the faintest shadow of a hope that in a soil so unfavorable fo
 LJ007-0165 any awakening truth, salutary exhortation, or imperfect resolutions of amendment can take root or grow.
 LJ007-0166 strong as were the foregoing remarks, the inspectors wound up their report in still more trenchant language
 LJ007-0167 framing a terrible indictment against those responsible for the condition of newgate. their words deserve to be quoted in full.
-LJ007-0168 we cannot close these remarks, say the inspectors, "without an expression of the painful feelings with which we submit to your lordship
+LJ007-0168 "we cannot close these remarks," say the inspectors, "without an expression of the painful feelings with which we submit to your lordship
 LJ007-0169 this picture of the existing state of newgate
 LJ007-0170 that in this vast metropolis, the center of wealth, civilization, and information;
 LJ007-0171 distinguished as the seat of religion, worth, and philanthropy,
@@ -1914,16 +1926,18 @@ LJ007-0199 baths, fumigating places for clothing, wash-house, and the removal of
 LJ007-0200 in the press-yard, the press-room and ward above it were parceled out into nine separate sleeping cells;
 LJ007-0201 each was provided with an iron bedstead, and a small desk at which the condemned man might read or write.
 LJ007-0202 but the one great and most crying evil remained unremedied.
-LJ007-0203 the mischief of jail associations, say the inspectors,
+LJ007-0203 "the mischief of jail associations," say the inspectors,
+LJ007-0204 "which has been demonstrably proved to be the fruitful source of all the abuses and irregularities which have so long disgraced newgate,
 LJ007-0205 is not only permitted still to exist in the prison, but is rendered more powerful than before.
 LJ007-0206 in endeavoring to arrest contamination, prisoners were more closely confined, and associated in smaller numbers;
 LJ007-0207 but this had the effect of throwing them into closer contact, and of making them more intimately acquainted with, more directly influential upon, one another.
 LJ007-0208 in the inspectors' fourth report, dated eighteen thirty-nine,
 LJ007-0209 they return to the charge, and again call the corporation to task for their mismanagement of newgate.
 LJ007-0210 abuses and irregularities, which had been partially remedied by the reform introduced in eighteen thirty-seven, were once more in the ascendant.
-LJ007-0211 in our late visits, they say, "we have seen manifest indications of a retrograde movement in this respect,
+LJ007-0211 "in our late visits," they say, "we have seen manifest indications of a retrograde movement in this respect,
 LJ007-0212 and a tendency to return to much of that laxity and remissness which formerly marked the management of this prison."
 LJ007-0213 again the following year the inspectors repeat their charge.
+LJ007-0214 "the prominent evils of this prison (newgate) -- evils which the alterations made within the last four years have failed to remove
 LJ007-0215 are the association of prisoners, and the unusual contamination to which such association gives rise.
 LJ007-0216 for nearly twenty-two hours out of the twenty-four the prisoners are locked up, during which time no officer is stationed in the ward with them.
 LJ007-0217 they go on to say
@@ -2069,13 +2083,13 @@ LJ008-0113 and his soul shot out so piercingly through the port-holes of his hea
 LJ008-0114 his hands were clasped, and he was truly penitent.
 LJ008-0115 after the yeoman had requested him to stand up, 'he pinioned him,' as the newgate phrase is
 LJ008-0116 and tied the cord with so little feeling that the governor (wall), who had not given the wretch his accustomed fee, observed,
-LJ008-0117 you have tied me very tight, upon which dr. forde ordered him to slacken the cord, which he did, but not without muttering.
-LJ008-0118 thank you, sir, said the governor to the doctor, "it is of little moment."
+LJ008-0117 "you have tied me very tight," upon which dr. forde ordered him to slacken the cord, which he did, but not without muttering.
+LJ008-0118 "thank you, sir," said the governor to the doctor, "it is of little moment."
 LJ008-0119 he then made some observations to the attendant about the fire, and turning to the doctor, questioned him.
-LJ008-0120 do tell me, sir; i am informed i shall go down with great force; is it so?
+LJ008-0120 "do tell me, sir; i am informed i shall go down with great force; is it so?"
 LJ008-0121 after the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at goree,
 LJ008-0122 where the murder for which he was condemned had been committed.
-LJ008-0123 sir, he answered, "they sent me the very riff-raff."
+LJ008-0123 "sir," he answered, "they sent me the very riff-raff."
 LJ008-0124 the poor soul then joined the doctor in prayer, and never did i witness more contrition at any condemned sermon than he then evinced.
 LJ008-0125 the sheriff arrived, attended by his officers, to receive the prisoner from the keeper.
 LJ008-0126 a new hat was partly flattened on his head, for, owing to its being too small in the crown, it stood many inches too high behind.
@@ -2266,8 +2280,8 @@ LJ008-0311 the whole of the convicts were assembled together in one ward, and ma
 LJ008-0312 to them entered the chaplain or ordinary of newgate in full canonicals,
 LJ008-0313 who in solemn tones communicated to each in turn the fate in store for him.
 LJ008-0314 the form of imparting the intelligence was generally the same.
-LJ008-0315 so-and-so, i am sorry to tell you that it is all against you; or,
-LJ008-0316 a. b., your case has been taken into consideration by the king in council, and his majesty has been mercifully pleased to spare your life.
+LJ008-0315 "so-and-so, i am sorry to tell you that it is all against you;" or,
+LJ008-0316 "a. b., your case has been taken into consideration by the king in council, and his majesty has been mercifully pleased to spare your life."
 LJ008-0317 the fatal news was not always received in the same way.
 LJ008-0318 the men who were doomed often fell down in convulsions upon the floor.
 LJ008-0319 sometimes any who had had a narrow escape fainted, but the bulk of those respited looked on with unfeeling indifference.
@@ -2426,7 +2440,7 @@ LJ009-0152 the crowd outside newgate on the day of execution has already been de
 LJ009-0153 first came the sheriffs, the under-sheriffs, and several aldermen and city officials, then lord powerscourt and several other peers of the realm.
 LJ009-0154 mr. charles kean the tragedian was also present,
 LJ009-0155 drawn to this terrible exhibition by the example of his father, the more celebrated edmund kean, who had witnessed the execution of thistlewood
-LJ009-0156 with a view, as he himself said, "to his professional studies."
+LJ009-0156 "with a view," as he himself said, "to his professional studies."
 LJ009-0157 but there is little doubt that as executions became more rare they made more impression on the public mind.
 LJ009-0158 already a strong dislike to the reckless and almost indiscriminate application of the extreme penalty was apparent in all classes,
 LJ009-0159 and the mitigation of the criminal code, for which romilly had so strenuously labored, was daily more and more of an accomplished fact.
@@ -2774,8 +2788,8 @@ LJ010-0196 these antics may have been assumed to bear out the plea of insanity s
 LJ010-0197 but that there was madness in his family, and that he himself was of unsound mind, could not be well denied.
 LJ010-0198 his father, it was proved in evidence, had been at times quite mad; and oxford's mental state might be inferred from his own proceedings.
 LJ010-0199 among his papers was found a curious document, purporting to be the rules of an association called
-LJ010-0200 young england, which oxford had evolved out of his own inflated self-conceit, and which had never any real corporeal existence.
-LJ010-0201 young england was a secret society, with no aim or object.
+LJ010-0200 "young england," which oxford had evolved out of his own inflated self-conceit, and which had never any real corporeal existence.
+LJ010-0201 "young england" was a secret society, with no aim or object.
 LJ010-0202 its sworn members, known only to oxford, and all of them mere shadows,
 LJ010-0203 were bound to provide themselves with sword, rifle, dagger, and a pair of pistols;
 LJ010-0204 to wear a black crape mask, to obey punctually the orders of their commander-in-chief,
@@ -2883,7 +2897,7 @@ LJ010-0305 its embarrassments were greatly increased by the bankruptcy of two of
 LJ010-0306 and the bank became liable for a sum of one hundred seventy thousand pounds.
 LJ010-0307 new liabilities were incurred to the extent of one hundred thousand pounds by more failures, and in eighteen nineteen,
 LJ010-0308 by the death of one of the partners, a large sum in cash had to be withdrawn from the bank to pay his heirs.
-LJ010-0309 during these numerous and trying difficulties -- it is mr. fauntleroy who speaks --
+LJ010-0309 "during these numerous and trying difficulties" -- it is mr. fauntleroy who speaks --
 LJ010-0310 the house was nearly without resources, and the whole burthen of management falling on me, i sought resources where i could;
 LJ010-0311 in other words, he forged powers of attorney, and proceeded to realize securities lodged in his bank under various names.
 LJ010-0312 among the prisoner's private papers, one was found giving full details of the stock he had feloniously sold out,
@@ -3167,7 +3181,7 @@ LJ011-0272 the coach immediately drove off; mr. gee entered the house, asked for
 LJ011-0273 he was about to descend the stairs when three persons, one of them the young sailor,
 LJ011-0274 fell upon him, and in spite of his resistance carried him into a sort of den partitioned off at the end of the back kitchen.
 LJ011-0275 there he was seated on some sort of wooden bench and securely fastened.
-LJ011-0276 a chain fixed to staples at his back passed round his chest under his arms, and was padlocked on the left side;
+LJ011-0276 "a chain fixed to staples at his back passed round his chest under his arms, and was padlocked on the left side;"
 LJ011-0277 his feet were bound with cords and made fast to rings in the floor. thus manacled, one of the party, who pretended to be mrs. canning's brother,
 LJ011-0278 addressed him, insisting that he should forthwith sign a cheque for the eight hundred pounds of the canning inheritance still uninvested,
 LJ011-0279 and write an order sufficient to secure the surrender of the other one thousand two hundred pounds.
@@ -3327,13 +3341,13 @@ LJ012-0139 solomons, had sold bar gold to the value of one thousand two hundred 
 LJ012-0140 solomons was not straightforward in his replies as to where he got the gold, and he was soon placed in the dock with the caspars and moss.
 LJ012-0141 moss presently turned approver,
 LJ012-0142 and implicated "money moses," another jew, for the whole affair had been planned and executed by members of the hebrew persuasion.
-LJ012-0143 money moses had received the stolen gold-dust from moss' father-in-law, davis, or isaacs, who was never arrested,
+LJ012-0143 "money moses" had received the stolen gold-dust from moss' father-in-law, davis, or isaacs, who was never arrested,
 LJ012-0144 and passed it on to solomons by his daughter, a widow named abrahams.
 LJ012-0145 solomons was now also admitted as a witness, and his evidence, with that of moss, secured the transportation of the principal actors in the theft.
 LJ012-0146 in the course of the trial it came out that almost every one concerned except the caspars had endeavored to defraud his accomplices.
 LJ012-0147 moss peached because he declared he had been done out of the proper price of the gold-dust; but it was clear that he had tried to appropriate the whole of the stuff,
 LJ012-0148 instead of handing it or the price of it back to the caspars.
-LJ012-0149 money moses and mrs. abrahams imposed upon moss as to the price paid by solomons;
+LJ012-0149 "money moses" and mrs. abrahams imposed upon moss as to the price paid by solomons;
 LJ012-0150 mrs. abrahams imposed upon her father by abstracting a portion of the dust and selling it on her own account;
 LJ012-0151 solomons cheated the whole lot by retaining half the gold in his possession, and only giving an i. o. u. for it,
 LJ012-0152 which he refused to redeem on account of the row about the robbery.
@@ -3691,11 +3705,11 @@ LJ013-0207 in this he gave as the motives of his crime a quarrel he had with his
 LJ013-0208 lord william, according to the valet, was of a peevish, difficult temper;
 LJ013-0209 he was annoyed with his man for various small omissions and acts of forgetfulness, and on the night of the murder had taken courvoisier to task rather sharply.
 LJ013-0210 finally, on coming downstairs after bed-time, lord william had found courvoisier in the dining-room.
-LJ013-0211 what are you doing here? asked his lordship.
-LJ013-0212 you can have no good intentions; you must quit my service tomorrow morning.
+LJ013-0211 "what are you doing here?" asked his lordship.
+LJ013-0212 "you can have no good intentions; you must quit my service tomorrow morning."
 LJ013-0213 this seems to have decided courvoisier,
 LJ013-0214 who took a carving-knife from the sideboard in the dining-room, went upstairs to lord william's bedroom, and drew the knife across his throat.
-LJ013-0215 he appeared to die instantly, said the murderer, in conclusion.
+LJ013-0215 "he appeared to die instantly," said the murderer, in conclusion.
 LJ013-0216 his account of his acts and movements after the deed
 LJ013-0217 varied so considerably in the several documents he left behind, that too much reliance cannot be placed upon his confession.
 LJ013-0218 his last statement contains the words, "the public now think i am a liar, and they will not believe me when i say the truth."
@@ -3711,7 +3725,7 @@ LJ013-0227 the order was, however, at length obeyed, and the whole of the prison
 LJ013-0228 in the pocket of the coat mr. cope, the governor, found a neatly-folded cloth, and asked what it was for.
 LJ013-0229 courvoisier admitted that he had intended to bind it tightly round his arm and bleed himself to death in the night.
 LJ013-0230 the next inquiry was how he hoped to open a vein. "with a bit of sharpened stick picked out of the ordinary firewood."
-LJ013-0231 where is it? asked the governor.
+LJ013-0231 "where is it?" asked the governor.
 LJ013-0232 the prisoner replied that he had left it in the mattress of which he had just been deprived.
 LJ013-0233 the bed was searched, but no piece of sharpened wood was found. it was thought that it might have been lost in changing the mattresses.
 LJ013-0234 the cloth above referred to belonged to the inner seam of his trousers, which he had managed to tear out.
@@ -4183,7 +4197,7 @@ LJ015-0095 the blow fell suddenly, and when least expected. one morning mr. fass
 LJ015-0096 whether representing real or fictitious shares does not appear; but they were certificates connected in some way with robson's long practiced frauds
 LJ015-0097 and he could not produce them. his chief asked sternly where they were.
 LJ015-0098 robson said they were at kilburn priory.
-LJ015-0099 let us go to kilburn for them together, said mr. fasson, growing suspicious.
+LJ015-0099 "let us go to kilburn for them together," said mr. fasson, growing suspicious.
 LJ015-0100 they drove there, and robson on arrival did the honors of his house, rang for lunch to gain time,
 LJ015-0101 but at mr. fasson's pressing demands went upstairs to fetch the certificates.
 LJ015-0102 he came back to explain that he had mislaid them.
@@ -4250,7 +4264,7 @@ LJ015-0162 just after robson's frauds had agitated the minds of all directors of
 LJ015-0163 was standing at a railway station talking to a certain well-known peer of the realm.
 LJ015-0164 redpath passed and lifted his hat to his chairman; the latter acknowledged the salute.
 LJ015-0165 but the peer rushed forward and shook redpath warmly by the hand.
-LJ015-0166 what do you know of our clerk? asked mr. denison of his lordship. "only that he is a capital fellow, who gives the best dinners and balls in town."
+LJ015-0166 "what do you know of our clerk?" asked mr. denison of his lordship. "only that he is a capital fellow, who gives the best dinners and balls in town."
 LJ015-0167 redpath had industriously circulated reports that he had prospered greatly in speculation;
 LJ015-0168 but the chairman of the great northern could not realize that a clerk of the company could honestly be in the possession of unlimited wealth.
 LJ015-0169 it was at once decided at the board to make a thorough examination of all his books.
@@ -4587,9 +4601,9 @@ LJ016-0186 invited the man with the cough to enter a neighboring house and try a
 LJ016-0187 the other accepted, and they got into conversation.
 LJ016-0188 he told calcraft that he was foxen the executioner, and that he was that moment on his way to newgate to hang a man,
 LJ016-0189 but that his cough was getting so much the master of him that he feared he would not be able to carry on his duties much longer.
-LJ016-0190 i have no idea who the sheriffs will get to do the work after me, said foxen, adding that his assistant, tom cheshire,
+LJ016-0190 "i have no idea who the sheriffs will get to do the work after me," said foxen, adding that his assistant, tom cheshire,
 LJ016-0191 was given to drink, and not to be trusted.
-LJ016-0192 i think i could do that sort of job, said calcraft, on the spur of the moment.
+LJ016-0192 "i think i could do that sort of job," said calcraft, on the spur of the moment.
 LJ016-0193 foxen asked him his name and address, and went away.
 LJ016-0194 calcraft thought no more of what had occurred till the next sessions at the old bailey, when the sheriffs sent for him,
 LJ016-0195 and offered him the post of executioner for the city of london and middlesex.
@@ -4635,7 +4649,7 @@ LJ016-0234 he was not unskilful, but he proceeded entirely by rule of thumb, lea
 LJ016-0235 he was so much in favor of short drops that his immediate successor, marwood, stigmatized him as "short-drop" man.
 LJ016-0236 marwood being, on the other hand, in favor of giving a man as much rope as possible.
 LJ016-0237 with calcraft's method there were undoubtedly many failures, and it was a common custom for him to go below the gallows
-LJ016-0238 just to steady their legs a little; in other words, to add his weight to that of the hanging bodies.
+LJ016-0238 "just to steady their legs a little;" in other words, to add his weight to that of the hanging bodies.
 LJ016-0239 marwood till latterly seemed to have done his work more effectually, and has been known to give as much as six feet fall.
 LJ016-0240 this generally produces instantaneous death, although cases where complete fracture of the spinal cord occurred are said to be rare.
 LJ016-0241 calcraft served the city of london till eighteen seventy-four, when he was pensioned at the rate of twenty-five shillings per week.
@@ -4675,14 +4689,15 @@ LJ016-0276 never, indeed, had an execution been more generally patronized.
 LJ016-0277 this is proved by contemporary accounts, especially one graphic and realistic article which appeared in the 'times,'
 LJ016-0278 and which contributed in no small degree to the introduction of private executions. a great crowd was expected, and a great crowd came.
 LJ016-0279 they collected over night in the bright light of a november moon.
-LJ016-0280 there were well-dressed and ill-dressed, old men and lads, women and girls.
+LJ016-0280 "there were well-dressed and ill-dressed, old men and lads, women and girls."
 LJ016-0281 rain fell heavily at intervals, but did not thin the concourse.
+LJ016-0282 "till three o'clock it was one long revelry of songs and laughter, shouting, and often quarreling, though,
 LJ016-0283 to do them mere justice, there was at least till then a half-drunken ribald gaiety among the crowd that made them all akin."
 LJ016-0284 there were preachers among the crowd, but they could not get a patient hearing.
 LJ016-0285 then one struck up the hymn of the promised land, and the refrain was at once taken up with a mighty chorus --
 LJ016-0286 oh, my! think i've got to die.
 LJ016-0287 this was presently superseded by a fresh catch --
-LJ016-0288 müller, müller, he's the man, till a diversion was created by the appearance of the gallows, which was received with continuous yells.
+LJ016-0288 "müller, müller, he's the man," till a diversion was created by the appearance of the gallows, which was received with continuous yells.
 LJ016-0289 as day broke the character of the crowd was betrayed.
 LJ016-0290 there were but few women, except of the most degraded sort; the men were mostly young men --
 LJ016-0291 sharpers, thieves, gamblers, betting men, the outsiders of the boxing ring,
@@ -4827,7 +4842,7 @@ LJ016-0431 one was vexed to think that his victims had a finer funeral than he w
 LJ016-0432 the only subject another showed any interest in was the theatres and the new pieces that were being produced. a third, christian satler,
 LJ016-0433 laughed and jested with the officers about "jack ketch," who, through the postponement of the execution, would lose his christmas dinner.
 LJ016-0434 when they brought in the two watchers to relieve guard one night, sattler said,
-LJ016-0435 two fresh men! may i speak to them? yes! i must caution you, he went on to the warders, "not to go to sleep, or i shall be off through that little hole,"
+LJ016-0435 "two fresh men! may i speak to them? yes! i must caution you," he went on to the warders, "not to go to sleep, or i shall be off through that little hole,"
 LJ016-0436 pointing to an aperture for ventilating the cell. on the morning of execution he asked how far it was to the gallows, and was told it was quite close.
 LJ016-0438 that the convict's clothes were still the executioner's perquisite.
 LJ016-0439 often the convicts give way to despair. they are too closely watched to be allowed to do themselves much mischief, or suicides would probably be more frequent.
@@ -5109,7 +5124,7 @@ LJ017-0268 and they were each kept in an ordinary separate cell of the newly-con
 LJ017-0269 let down. a full view of them was thus at all times obtainable by the officers who, without intermission, day and night patrolled the ward.
 LJ017-0270 on the morning of execution the noise of fixing the gallows in the street outside awoke one or two of them.
 LJ017-0271 lyons asked the time, and was told it was only five.
-LJ017-0272 ah! he remarked, "they will have to wait for us then till eight."
+LJ017-0272 "ah!" he remarked, "they will have to wait for us then till eight."
 LJ017-0273 lopez was more talkative.
 LJ017-0274 when the warder went in to call him he asked for his clothes. he was told he would have to wear his own.
 LJ017-0276 then he wanted to know when the policemen would arrive, and was told none would come.
@@ -5290,7 +5305,7 @@ LJ018-0167 nothing was found in buncher's premises in strutton ground, which wer
 LJ018-0168 but proofs of griffiths' guilt were at once apparent on entering his work-room.
 LJ018-0169 in one corner was a printing-press actually in use, and on it were twenty-one forged bank of england notes, without date or signature.
 LJ018-0170 on the bed were twenty forged ten-pound notes complete and ready for use, and twenty-five five-pound notes.
-LJ018-0171 mother plates for engraving the body of the notes lay about, and other plates for various processes.
+LJ018-0171 "mother plates" for engraving the body of the notes lay about, and other plates for various processes.
 LJ018-0172 more than this, griffiths took the police to a field where, in a bank, a number of other plates were secreted.
 LJ018-0173 griffiths afterwards admitted that he had been employed in defrauding the bank since eighteen forty-six,
 LJ018-0174 and the prominent part he played secured for him on conviction the heaviest sentence of the law.
@@ -5309,7 +5324,7 @@ LJ018-0186 it was well known that they were resurrectionists, and a strict watch
 LJ018-0187 an officer was placed for this purpose at new cross, camberwell, and kennington gates.
 LJ018-0188 presently "old bob" drove up to camberwell gate in the same cart in which he had been seen to start.
 LJ018-0189 the officers rushed out to detain him. "what have you got here? we must search the cart," they cry.
-LJ018-0190 by all means, replies bob, and a close investigation follows, without any detection of the corpse concealed.
+LJ018-0190 "by all means," replies bob, and a close investigation follows, without any detection of the corpse concealed.
 LJ018-0191 bob was therefore allowed to pass on.
 LJ018-0192 but they had the body, all the same; it had been dressed up in decent clothes and made to stand upright in the cart.
 LJ018-0193 with the police officers it had passed muster as a living member of the party.
@@ -5707,7 +5722,7 @@ LJ019-0186 seeing that since the establishment of the central criminal court, ne
 LJ019-0187 and he was therefore prepared to submit to parliament a proposal that half the cost of reconstruction should be borne by public funds.
 LJ019-0188 he forwarded plans prepared by the inspectors of prisons, not for blind adoption, but as a guide.
 LJ019-0189 this plan was on the principle of cellular separation, a system, according to lord john russell, desirable in all prisons,
-LJ019-0190 but in a metropolitan prison absolutely essential. the corporation in reply demurred rather to accepting strict separation as a rule,
+LJ019-0190 "but in a metropolitan prison absolutely essential." the corporation in reply demurred rather to accepting strict separation as a rule,
 LJ019-0191 feeling that it approached too nearly to solitary confinement.
 LJ019-0192 the court was, however, prepared to consider lord john russell's proposal with regard to the cost of rebuilding;
 LJ019-0193 but as the plan was "confessedly experimental, for the benefit of the country generally, the amount for which the city should be responsible should be distinctly limited
@@ -6266,7 +6281,7 @@ LJ022-0029 so many people come to washington who know things that are not so,
 LJ022-0030 and so few people who know anything about what the people of the united states are thinking about.
 LJ022-0031 that is why i occasionally leave this scene of action for a few days
 LJ022-0032 to go fishing or back home to hyde park, so that i can have a chance to think quietly about the country as a whole.
-LJ022-0033 to get away from the trees, as they say, "and to look at the whole forest."
+LJ022-0033 "to get away from the trees", as they say, "and to look at the whole forest."
 LJ022-0034 this duty of seeing the country in a long-range perspective
 LJ022-0035 is one which, in a very special manner, attaches to this office to which you have chosen me.
 LJ022-0036 did you ever stop to think that there are, after all, only two positions in the nation
@@ -6788,7 +6803,7 @@ LJ025-0064 which, from their similarity to animals of simple organization, were 
 LJ025-0065 even as late as eighteen forty-five, however, a botanist of schleiden's eminence dealt very skeptically with these statements,
 LJ025-0066 and his skepticism was the more justified since ehrenberg in his elaborate and comprehensive work on the infusoria,
 LJ025-0067 had declared the greater number of what are now recognized as locomotive plants to be animals.
-LJ025-0068 at the present day, writes huxley,
+LJ025-0068 "at the present day," writes huxley,
 LJ025-0069 innumerable plants and free plant cells are known to pass the whole or part of their lives in an actively locomotive condition,
 LJ025-0070 in nowise distinguishable from that of one of the simpler animals, and
 LJ025-0071 while in this condition their movements are, to all appearances, as spontaneous -- as much the product of volition -- as those of such animals.
@@ -6868,7 +6883,7 @@ LJ025-0144 one of which is able to affect the other by means of the communicatio
 LJ025-0145 hence it is conceivable that even the simplest living being may possess a nervous system.
 LJ025-0146 and the question whether plants are provided with a nervous system or not thus acquires a new aspect and presents the histologist and physiologist
 LJ025-0147 with a problem of extreme difficulty, which must be attacked from a new point of view and by the aid of methods which have yet to be invented.
-LJ025-0148 thus it must be admitted, he says again, "that plants may be contractile and locomotive;
+LJ025-0148 "thus it must be admitted," he says again, "that plants may be contractile and locomotive;
 LJ025-0149 that, while locomotive, their movements may have as much appearance of spontaneity as those of the lowest animals,
 LJ025-0150 and that many exhibit actions comparable to those which are brought about by the agency of a nervous system in animals.
 LJ025-0151 and it must be allowed to be possible that further research may reveal the existence of something comparable to a nervous system in plants.
@@ -7117,7 +7132,7 @@ LJ027-0051 it means blood relationship.
 LJ027-0052 these principles of homology are essential to a correct interpretation of the facts of morphology.
 LJ027-0053 the most striking fact of similar structure among plants and among animals is the existence of a common general plan in any group.
 LJ027-0054 since backboned animals are best known to most readers, they may be taken as an illustration.
-LJ027-0055 all vertebrate animals, and none other, says le conte, "have an internal jointed skeleton worked by muscles on the outside.
+LJ027-0055 "all vertebrate animals, and none other," says le conte, "have an internal jointed skeleton worked by muscles on the outside.
 LJ027-0056 the relation of skeleton and muscle in arthropods is exactly the reverse.
 LJ027-0057 in all vertebrates, and in none other, the axis of this skeleton is a jointed backbone (vertebral column)
 LJ027-0058 enclosing and protecting the nervous centers (cerebrospinal axis).
@@ -7179,7 +7194,8 @@ LJ027-0113 of course the theory of descent with adaptive modification has a simp
 LJ027-0114 namely that when from changed conditions of life, an organ which was previously useful becomes useless,
 LJ027-0115 it will be suffered to dwindle away in successive generations, under the influence of certain natural causes.
 LJ027-0116 on the other hand, the theory of special creation can only maintain that these rudiments are formed for the sake of adhering to an ideal type.
-LJ027-0117 now, here again the former theory appears to be triumphant over the latter, says romanes,
+LJ027-0117 "now, here again the former theory appears to be triumphant over the latter," says romanes,
+LJ027-0118 "for, without waiting to dispute the wisdom of making dwarfed and useless structures merely for the whimsical motive assigned,
 LJ027-0119 surely if such a method were adopted in so many cases, we should expect that in consistency it would be adopted in all cases.
 LJ027-0120 this reasonable expectation, however, is far from being realized.
 LJ027-0121 in numberless cases, such as that of the fore-limbs of serpents, no vestige of a rudiment is present.
@@ -7198,7 +7214,7 @@ LJ027-0133 to present the mass of embryological evidence, but a few salient fact
 LJ027-0134 most remarkable of all the principles which have been discovered by embryologists is the "recapitulation doctrine"
 LJ027-0135 which, briefly stated, is that individual development (ontogeny) recapitulates ancestral history (phylogeny).
 LJ027-0136 illustrations quoted from the works of romanes and le conte will make this principle clear.
-LJ027-0137 it is an observable fact, says romanes,
+LJ027-0137 "it is an observable fact," says romanes,
 LJ027-0138 that there is often a close correspondence between developmental changes as revealed by any chronological series of fossils which may happen to have been preserved,
 LJ027-0139 and developmental changes which may be observed during the life history of now existing individuals belonging to the same group of animals.
 LJ027-0141 is closely reproduced in the life-history of existing deer. or, in other words,
@@ -7219,7 +7235,7 @@ LJ027-0155 now i do not deny that this view is a possible view; but i do deny th
 LJ027-0156 according to the evolutionary interpretation of such facts, we can see a very good reason why the life-history of the individual
 LJ027-0157 is thus a condensed resume of the life history of its ancestral species.
 LJ027-0158 but according to the opposite view no reason can be assigned why such should be the case.
-LJ027-0159 it is well known, likewise comments le conte,
+LJ027-0159 "it is well known," likewise comments le conte,
 LJ027-0160 that the embryo or larva of a frog or toad, when first hatched, is a legless, tail-swimming, water-breathing, gill-breathing animal.
 LJ027-0161 it is essentially a fish, and would be so classed if it remained in this condition.
 LJ027-0162 the fish retains permanently this form, but the frog passes on.
@@ -7440,8 +7456,8 @@ LJ028-0197 belshazzar, the king, he was really the king's son, gave a feast to a
 LJ028-0198 in the great banquet hall of the palace, when the guests were drinking from the golden cups, and the revelry was at its highest,
 LJ028-0199 there suddenly appeared upon the wall an armless hand.
 LJ028-0200 high up, where all might see it, the armless hand wrote the king's fate.
-LJ028-0201 thou art weighed in the balances and art found wanting.
-LJ028-0202 in that night, so the story ends, "belshazzar, the chaldean king, was slain."
+LJ028-0201 "thou art weighed in the balances and art found wanting."
+LJ028-0202 "in that night," so the story ends, "belshazzar, the chaldean king, was slain."
 LJ028-0203 less picturesque than this hebrew legend is the royal record of babylon, which fortunately was inscribed upon a clay cylinder from the ruins of the city.
 LJ028-0204 it refers to the death of the king's son, possibly to belshazzar of the bible story.
 LJ028-0205 in the month tammuz, when cyrus fought the troops of akkad (babylonia) at opis on the river salsallat,
@@ -7538,7 +7554,7 @@ LJ028-0295 i maimed myself because i could not endure that the assyrians should 
 LJ028-0296 thou coverest the foulest deeds with the fairest possible name, when thou sayest thy maiming is to help our siege forward.
 LJ028-0297 how will thy disfigurement, thou simpleton, induce the enemy to yield one day sooner?
 LJ028-0298 surely thou hadst gone out of thy mind when thou didst so misuse thyself.
-LJ028-0299 had i told thee, rejoined the other, "what i was bent on doing, thou wouldst not have suffered it;
+LJ028-0299 "had i told thee," rejoined the other, "what i was bent on doing, thou wouldst not have suffered it;
 LJ028-0300 as it is, i kept my own counsel, and so accomplished my plans.
 LJ028-0301 now, therefore, if there be no failure on thy part, we shall take babylon.
 LJ028-0302 i will desert to the enemy as i am, and when i get into their city i will tell them that it is by thee that i have been thus treated.
@@ -7558,7 +7574,7 @@ LJ028-0315 he replied that he was zopyrus, and deserted to them from the persian
 LJ028-0316 then the doorkeepers, when they heard this, carried him at once before the magistrates.
 LJ028-0317 introduced into their assembly, he began to bewail his misfortunes, telling them that
 LJ028-0318 darius had maltreated him in the way they could see, only because he had given advice that the siege should be raised, since there seemed no hope of taking the city.
-LJ028-0319 and now, he went on to say, "my coming to you, babylonians,
+LJ028-0319 "and now," he went on to say, "my coming to you, babylonians,
 LJ028-0320 will prove the greatest gain that you could possibly receive, while to darius and the persians it will be the severest loss.
 LJ028-0321 verily he by whom i have been so mutilated shall not escape unpunished. and truly all the paths of his counsels are known to me.
 LJ028-0322 thus did zopyrus speak.
@@ -7970,7 +7986,7 @@ LJ029-0208 it was fashioned after the "wanted" circulars issued by law enforceme
 LJ029-0209 beneath two photographs of president kennedy, one full- face and one profile, appeared the caption, quote, wanted for treason,
 LJ029-0210 end quote, followed by a scurrilous bill of particulars that constituted a vilification of the president.
 LJ029-0211 and on the morning of the president's arrival, there appeared in the morning news a full, black-bordered advertisement headed:
-LJ029-0212 welcome mr. kennedy to dallas, sponsored by the american fact-finding committee, which the sponsor later testified was an ad hoc committee
+LJ029-0212 "welcome mr. kennedy to dallas," sponsored by the american fact-finding committee, which the sponsor later testified was an ad hoc committee
 LJ029-0213 quote, formed strictly for the purpose of having a name to put in the paper, end quote,
 LJ030-0001 report of the president's commission on the assassination of president kennedy. the warren commission report. by the president's commission on the assassination of president kennedy.
 LJ030-0002 chapter two. the assassination: part two.
@@ -8153,7 +8169,7 @@ LJ030-0178 looking over her right shoulder, she saw that the president had both 
 LJ030-0179 she watched as he slumped down with an empty expression on his face.
 LJ030-0180 roy kellerman, in the right front seat of the limousine, heard a report like a firecracker pop.
 LJ030-0181 turning to his right in the direction of the noise, kellerman heard the president say
-LJ030-0182 my god, i am hit, and saw both of the president's hands move up toward his neck.
+LJ030-0182 "my god, i am hit," and saw both of the president's hands move up toward his neck.
 LJ030-0183 as he told the driver, quote, let's get out of here; we are hit, end quote,
 LJ030-0184 kellerman grabbed his microphone and radioed ahead to the lead car,
 LJ030-0185 quote, we are hit. get us to the hospital immediately, end quote.
@@ -8513,7 +8529,7 @@ LJ032-0050 it bore the manufacturer's serial number c two seven six six.
 LJ032-0051 on that date, klein's placed an internal control number v c eight three six on this rifle.
 LJ032-0052 according to klein's shipping order form, one italian carbine six point five x four x scope,
 LJ032-0053 control number v c eight three six, serial number c two seven six six, was shipped parcel post to
-LJ032-0054 a. hidell, p.o. box two nine one five, dallas, texas, on march twenty, nineteen sixty-three.
+LJ032-0054 "a. hidell, p.o. box two nine one five, dallas, texas," on march twenty, nineteen sixty-three.
 LJ032-0055 information received from the italian armed forces intelligence service has established that this particular rifle was the only rifle of its type
 LJ032-0056 bearing serial number c two seven six six.
 LJ032-0057 the post office box to which the rifle was shipped was rented to "lee h. oswald" from october nine, nineteen sixty-two,
@@ -8594,7 +8610,7 @@ LJ032-0131 he stated that the poor quality of the wood and the metal would cause
 LJ032-0132 on november twenty-two, however, before surrendering possession of the rifle to the fbi laboratory,
 LJ032-0133 lieutenant day of the dallas police department had "lifted" a palmprint from the underside of the gun barrel
 LJ032-0134 quote, near the firing end of the barrel about three inches under the woodstock when i took the woodstock loose, end quote,
-LJ032-0135 lifting a print involves the use of adhesive material to remove the fingerprint powder which adheres to the original print.
+LJ032-0135 "lifting" a print involves the use of adhesive material to remove the fingerprint powder which adheres to the original print.
 LJ032-0136 in this way the powdered impression is actually removed from the object.
 LJ032-0137 the lifting had been so complete in this case that there was no trace of the print on the rifle itself when it was examined by latona.
 LJ032-0138 nor was there any indication that the lift had been performed.
@@ -11021,7 +11037,7 @@ LJ042-0160 the philippines, and the scores of odd islands in the pacific.
 LJ042-0161 immediately after serving out his three years in the u.s. marine corps, he abandoned his american life to seek a new life in the ussr.
 LJ042-0162 full of optimism and hope, he stood in red square in the fall of nineteen fifty-nine, vowing to see his chosen course through,
 LJ042-0163 after, however, two years and a lot of growing up, i decided to return to the usa.
-LJ042-0164 the collective contrasts sharply with material which oswald seems to have written after he left the soviet union.
+LJ042-0164 "the collective" contrasts sharply with material which oswald seems to have written after he left the soviet union.
 LJ042-0165 which appears to be more an expression of his own psychological condition than of a reasoned analysis.
 LJ042-0166 the latter material expresses great hostility to both communism and capitalism. he wrote, that to a person knowing both of those systems, quote,
 LJ042-0167 there can be no mediation between those systems as they exist today, and that person

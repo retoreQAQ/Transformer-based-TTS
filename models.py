@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.checkpoint import checkpoint, checkpoint_sequential
 from torch.cuda.amp import autocast
-from generic import resource_monitor
 
 from torch.autograd import Variable
 import math
@@ -57,27 +56,18 @@ class TransformerForTTS(nn.Module):
     
     @autocast()
     def forward(self, src, src_key_padding_mask, tgt, tgt_key_padding_mask):
-
-        # src = src.transpose(0, 1)
-        # tgt = tgt.transpose(0, 1)  # [seq_len_tgt, batch_size]
-        # print("src shape:", src.shape)  # [16, 2451, 23]
-        # print("tgt shape:", tgt.shape)  # [16, 77]
         
         src = self.encoder_embedding(src)
-        # print("tgt shape:", tgt.shape)  # [bs, txt_seq_len, d_model]
-        src += self.position_decoder(src)
+        src += self.position_encoder(src)
         
         tgt = self.change_d_model(tgt)
-        # src = self.bn1(src.transpose(1, 2)).transpose(1, 2)
-        tgt += self.position_encoder(tgt)
-        # print("src shape:", src.shape)  # [bs, mel_seq_len, d_model]
+        tgt += self.position_decoder(tgt)
         
 
         # (tgt_max_length, batch_size, d_model)
         prediction = checkpoint(self.warp_transform, self.transformer, src, tgt, src_key_padding_mask, tgt_key_padding_mask, self.tgt_mask)
-        # print("prediction shape:", prediction.shape)    # [16, 77, 512]
 
-        # 输出层77 32 32434
+        # 输出层16 1008 80
         prediction = checkpoint(self.output_linear, prediction)
 
         return prediction
@@ -87,9 +77,10 @@ class TransformerForTTS(nn.Module):
         生成前瞻掩码。
         :param size: 文本序列长度。
         """
-        mask = (torch.triu(torch.ones((max_len, max_len))) == 1).transpose(0, 1)
-        mask = mask.float().masked_fill(mask == 0, float('-inf')).masked_fill(mask == 1, float(0.0))
-        return mask
+        # mask = (torch.triu(torch.ones((max_len, max_len))) == 1).transpose(0, 1)
+        # mask = mask.float().masked_fill(mask == 0, float('-inf')).masked_fill(mask == 1, float(0.0))
+        mask = (torch.triu(torch.ones((max_len, max_len)), diagonal=1) == 1)
+        return mask.cuda()
     
     def l2_regularization(self, l2_lambda=0):
         l2_reg = torch.tensor(0.0).cuda()

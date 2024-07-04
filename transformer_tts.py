@@ -53,6 +53,7 @@ class Runner(object):
                     src_key_padding_mask = self.create_padding_mask(src, src_length).cuda()
                     tgt_key_padding_mask = self.create_padding_mask(tgt, tgt_length).cuda()
                     with autocast():
+                        # 16 1008 80
                         prediction = self.model(src, src_key_padding_mask, tgt, tgt_key_padding_mask)
                         loss = self.loss_fun(prediction, tgt)
                     loss_all += loss.detach().item()
@@ -274,12 +275,12 @@ if __name__ == "__main__":
             # 打开一个文件来将print的内容写入
             sys.stdout = Logger(stream=original_stdout)
             
-            best_wer = main(argument, parameter_dict)
+            best_eval_index_value = main(argument, parameter_dict)
             
             # 恢复原始的sys.stdout
             sys.stdout = original_stdout
             os.chdir(f'{pwd}/log')
-            new_logger_folder = f'{log_folder}_{best_wer:.4f}'
+            new_logger_folder = f'{log_folder}_{best_eval_index_value:.4f}'
             os.rename(log_folder, new_logger_folder)
     else:
         print(f'parameter_group.json error:\n{parameter_group}')

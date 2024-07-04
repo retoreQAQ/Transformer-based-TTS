@@ -792,8 +792,8 @@ this delectable society enticed into their set a clerk who had been imprisoned f
 and offered him half the booty if he would give full information as to the transactions and correspondence of his late employers.
 owing to the facility of intercourse between inside and outside, many crimes were doubtless hatched in newgate.
 some of the worst and most extensive burglaries were planned there.
-i believe, says mr. bennet in the letter already largely quoted,
-that there is no place in the metropolis where more crimes are projected or where stolen property is more secreted than in newgate.
+"i believe," says mr. bennet in the letter already largely quoted,
+"that there is no place in the metropolis where more crimes are projected or where stolen property is more secreted than in newgate."
 these malpractices were fostered by the absence of all supervision and the generally unbroken idleness.
 although attempted partially at bridewell, and more systematically at the new millbank penitentiary,
 but just open (eighteen sixteen), the regular employment of prisoners had never yet been accepted as a principle in the metropolitan prisons.
@@ -927,11 +927,11 @@ mr. buxton's small work on prison discipline gave a new aspect to the question h
 for the first time the doctrine was enunciated that prisoners had rights of their own.
 the untried, and in the eyes of the law still innocent, could claim pure air, wholesome and sufficient food, and opportunities for exercise.
 they had a right, mr. buxton affirmed, to be employed in their own crafts, provided it could be safely followed in prison.
-you have no right, he says, addressing the authorities, "to subject a prisoner to suffering from cold,
+"you have no right," he says, addressing the authorities, "to subject a prisoner to suffering from cold,
 by want of bed-clothing by night or firing by day
 and the reason is plain: you have taken him from his home, and have deprived him of the means of providing himself with the necessaries or comforts of life,
 and therefore you are bound to furnish him with moderate indeed but suitable accommodation."
-you have for the same reason, he goes on, "no right to ruin his habits by compelling him to be idle,
+"you have for the same reason," he goes on, "no right to ruin his habits by compelling him to be idle,
 his morals by compelling him to mix with a promiscuous assemblage of hardened and convicted criminals,
 or his health by forcing him at night into a damp, unventilated cell, with such crowds of companions as very speedily render the air foul and putrid;
 or to make him sleep in close contact with the victims of contagious and loathsome disease,
@@ -942,9 +942,11 @@ nor even when found guilty and his liberty forfeited did his privileges cease. t
 it was for those charged with the administration of the law to guard carefully against any aggravation of that punishment,
 to see that "no circumstances of severity are found in his treatment which are not found in his sentence."
 no judge ever condemned a man to be half-perished with cold by day, or half-suffocated with heat by night.
-who ever heard of a criminal being sentenced to catch the rheumatism or the typhus fever?
+"who ever heard of a criminal being sentenced to catch the rheumatism or the typhus fever?"
+"disease, cold, famine, nakedness, and contagious and polluted air are not lawful punishments in the hands of the civil magistrates;
 nor has he a right to poison or starve his fellow-creatures."
-the convicted delinquent has his rights, said mr. buxton authoritatively.
+"the convicted delinquent has his rights," said mr. buxton authoritatively.
+"all measures and practices in prison which may injure him in any way are illegal,
 because they are not specified in his sentence; he is therefore entitled to a wholesome atmosphere,
 decent clothing and bedding, and a diet sufficient to support him."
 these somewhat novel but undoubtedly indisputable propositions were backed up, not by sound arguments only, but by the letter of the law.
@@ -981,7 +983,7 @@ three. prisoners guilty of misdemeanors. four. prisoners charged with misdemeano
 it was further ordered that male prisoners should be kept perfectly distinct from the females.
 king's evidences were also to be lodged apart.
 infirmaries separating the sexes were also to be provided, a chapel too, and warm and cold baths.
-care also was to be taken that the prisoners shall not be kept in any apartment underground.
+"care also was to be taken that the prisoners shall not be kept in any apartment underground."
 in an early report of the prison discipline improvement society,
 published some six-and-thirty years after the promulgation of this act, the flagrant and persistent violations of it and others
 which had continued through that long period, are forcibly pointed out.
@@ -1004,7 +1006,7 @@ twenty men slept on eight straw beds, with sixteen rugs amongst them, and a piec
 mr. buxton, who found this, declared that it seemed physically impossible, but he was assured that it was true,
 and that it was accomplished by "sleeping edgewise."
 one poor wretch, who had slept next the wall, said he had been literally unable to move for the pressure.
-in the morning the stench and heat were so oppressive that he and every one else on waking rushed unclothed into the yard;
+"in the morning the stench and heat were so oppressive that he and every one else on waking rushed unclothed into the yard;"
 and the turnkey told mr. buxton that the "smell on first opening the door was enough to knock down a horse.
 the hospital was filled with infectious cases, and in one room, seven feet by nine, with closed windows,
 where a lad lay ill with fever, three other prisoners, at first perfectly healthy, were lodged. of course they were seized with the fever;
@@ -1026,7 +1028,7 @@ all charged with felony were in heavy irons, without distinction of age.
 all were in ill health; almost all were in rags; almost all were filthy in the extreme.
 the state of the prison, the desperation of the prisoners, broadly hinted in their conversation and plainly expressed in their conduct,
 the uproar of oaths, complaints, and obscenity,
-the indescribable stench, presented together a concentration of the utmost misery and the utmost guilt.
+"the indescribable stench," presented together a concentration of the utmost misery and the utmost guilt.
 it was "a scene of infernal passions and distresses," says buxton, "which few have imagination sufficient to picture,
 and of which fewer still would believe that the original is to be found in this enlightened and happy country."
 there was still worse to come. having explored the yards and adjacent day rooms, and sleeping cells, a door was unlocked,
@@ -1115,6 +1117,7 @@ they used their own tools, and this without any dangerous consequences as regard
 thus disposing of the objection so long raised against the industrial employment of prisoners in newgate.
 but this boon of toil was denied to all but a very limited number.
 as the prison discipline society pertinently observed in a report dated eighteen twenty,
+"it is obvious that reformation must be materially impeded, and in some cases utterly defeated, when the prisoners are defectively classed,
 the chronicles of newgate, volume two. by arthur griffiths. section eight: the beginnings of prison reform.
 newgate prisoners were the victims to another most objectionable practice which obtained all over london.
 persons committed to a metropolitan jail at that time were taken in gangs, men and women handcuffed together, or linked on to a long chain,
@@ -1139,10 +1142,12 @@ who, in a caustic article contributed to the 'edinburgh review,' protested again
 while fully admitting the good intentions of the society, he condemned their ultra humanitarianism as misplaced.
 he took exception to various of the proposals of the society. he thought they leant too much to a system of indulgence and education in jails.
 he objected to the instruction of prisoners in reading and writing.
-a poor man who is lucky enough, he said, "to have his son committed for a felony
+"a poor man who is lucky enough," he said, "to have his son committed for a felony
 educates him under such a system for nothing, while the virtuous simpleton who is on the other side of the wall is paying by the quarter for these attainments."
 he was altogether against too liberal a diet; he disapproved of industrial occupations in jails, as not calculated to render prisons terrible.
+"there should be no tea and sugar, no assemblage of female felons around the washing-tub,
 nothing but beating hemp and pulling oakum and pounding bricks -- no work but what was tedious, unusual."
+"in prisons, which are really meant to keep the multitude in order, and to be a terror to evil-doers, there must be no sharings of profits,
 no visiting of friends, no education but religious education, no freedom of diet,
 no weavers' looms or carpenters' benches. there must be a great deal of solitude, coarse food, a dress of shame,
 hard, incessant, irksome, eternal labor, a planned and regulated and unrelenting exclusion of happiness and comfort.
@@ -1178,7 +1183,7 @@ experience has since shown that in some respects these plans are defective, espe
 it was thought that this would guarantee constant supervision and inspection, but it did nothing of the kind, and only the presence of warders on duty
 is found now-a-days to be really efficacious. the main recommendations, however, are based upon common sense
 and none are more commendable than that which deprecates the excessive ornamentation of the external parts of the edifice.
-the new jails, as howard says, "having pompous fronts, appear like palaces to the lower class of people, and many persons are against them on this account."
+"the new jails," as howard says, "having pompous fronts, appear like palaces to the lower class of people, and many persons are against them on this account."
 the prison society reproves the misdirected efforts of ambitious architects, who by a lavish and improvident expenditure of public money
 sought to "rank the prisons they built among the most splendid buildings of the city or town."
 absence of embellishment is in perfect unison with the character of the establishment.
@@ -1189,12 +1194,13 @@ to its efforts, and their effect upon parliament and the public mind, we must at
 cap. sixty-four, and five george the fourth cap. eighty-five
 which having gone through several sessions, at last became law in eighteen twenty-three to four
 by the preamble of the first-named act it was declared
+"expedient to introduce such measures and arrangements as shall not only provide for the safe custody,
 but shall also tend more effectually to preserve the health
 and improve the morals of the prisoners, and shall insure the proper measure of punishment to convicted offenders.
 accordingly due provision was made for the enforcement of hard labor on all prisoners sentenced to it, and for the employment of all others.
 unless such ability (to work) should cease by reason of sickness, infirmity, the want of sufficient work, or from any other cause.
 it was distinctly laid down that male and female prisoners should be confined in separate buildings or parts of the prison,
-so as to prevent them from seeing, conversing, or holding any intercourse with each other.
+"so as to prevent them from seeing, conversing, or holding any intercourse with each other."
 classification was insisted upon, in the manner laid down by the twenty-four george the third cap. fifty-four,
 with such further separation as the justices should deem conducive to good order and discipline.
 female prisoners were in all cases to be under the charge of female officers.
@@ -1239,7 +1245,7 @@ or to reappropriate, reconstruct, and patch up the existing prisons till they we
 religious worship became more generally the rule; chaplains were appointed, and chapels provided for them; surgeons and hospitals also.
 workshops were built at many prisons, various kinds of manufactures and trades were set on foot, including weaving, matting, shoe-making, and tailoring.
 the interior of one prison was illuminated throughout with gas, -- still a novelty, which had been generally adopted in london only four years previously,
-a measure which must greatly tend to discourage attempts to escape.
+"a measure which must greatly tend to discourage attempts to escape."
 there were tread-wheels at most of the prisons, and regular employment thereon or at some other kind of hard labor.
 in many places too where the prisoners earned money by their work, they were granted a portion of it for their own use after proper deduction for maintenance.
 only a few glaring evils still demanded a remedy.
@@ -1278,7 +1284,7 @@ when the new acts were introduced, numerous prisons under local jurisdiction wer
 they were so radically bad that reform seemed hopeless, and it was thought wiser not to bring them under provisions which clearly could not be enforced.
 mr. peel, who as home secretary had charge of the bill,
 which became the four george the fourth cap. sixty-four, said that he had abstained from legislating for these small jurisdictions "on mature deliberation."
-it is not, he said, "that i am insensible of the lamentable and disgraceful situation in which many of them are,
+"it is not," he said, "that i am insensible of the lamentable and disgraceful situation in which many of them are,
 but i indulge a hope that many of them will contract with the counties,
 that many of them will build new jails, and that when in a year or two we come to examine their situation,
 we shall find but few which have not in one or other of these ways removed the grievance of which such just complaint is made.
@@ -1363,6 +1369,7 @@ from the moment of a person's committal he was certain to be plunged deeper and 
 the prisoners were crowded together in the jail, contrary to the requirements of the four george the fourth
 again in eighteen thirty-five prisons and their inmates became once more the care of the senate, and the subject was taken up this time by the house of lords.
 a committee was appointed, under the presidency of the duke of richmond
+"to inquire into and report upon the several jails and houses of correction in the counties, cities, and corporate towns within england and wales
 upon the rules and discipline therein established with regard to the treatment of unconvicted as well as convicted persons."
 the committee was also to report upon the manner in which sentences were carried out, and to recommend any alterations necessary in the rules
 in order to insure uniformity of discipline. it met on the thirty-first march, eighteen thirty-five, and continued its sittings well into july
@@ -1391,6 +1398,7 @@ which was eventually to replace the attempted arrangement of prisoners by classe
 an incomplete and fallacious method of preventing contamination.
 the lords' committee fully recognized the painful fact
 that the greatest mischief followed from the intercourse which was still permitted in so many prisons; to use its words,
+"the comparatively innocent are seduced, the unwary are entrapped,
 and the tendency to crime in offenders not entirely hardened is confirmed by the language, the suggestions, and the example
 of more depraved and systematic criminals.
 this committee, as well as the one preceding it, also reported in terms of strong reprobation on the small prisons and jails
@@ -1445,7 +1453,7 @@ the ink was barely dry upon their letters of appointment before they appeared at
 they attended early and late; they mustered the prisoners, examined into their condition,
 took voluminous evidence from all classes of individuals, from the governor down to the convict in the condemned cells.
 they visited the wards after locking-up time, and saw with their own eyes what went on.
-a subject of magnitude and importance sufficient to exclude other jails, they soon narrowed their inquiry still further,
+"a subject of magnitude and importance sufficient to exclude other jails," they soon narrowed their inquiry still further,
 and limited it to newgate alone. newgate indeed became the sole theme of their first report.
 the fact was that the years as they passed, nearly twenty in all, had worked but little permanent improvement in this detestable prison.
 changes introduced under pressure had been only skin deep.
@@ -1474,7 +1482,7 @@ minor offenders charged with small thefts or non-payment of small sums were chee
 in the master's side yard, which had only one washing place, as many as seventy-eight prisoners, frequently more,
 were associated together, "of every variety of age, habit, and delinquency, without employment, oversight, or control."
 in the middle yard it was still worse.
-here, say the inspectors, "are herded together the very worst class of prisoners; certainly a more wretched combination of human beings can hardly be imagined.
+"here," say the inspectors, "are herded together the very worst class of prisoners; certainly a more wretched combination of human beings can hardly be imagined.
 we have reason to fear that poverty, ragged clothes, and an inability to pay the ward dues, elsewhere exacted for better accommodation,
 consign many of the more petty and unpracticed offenders to this place,
 where they inevitably meet with further contamination from the society of the most abandoned and incorrigible inmates of the jail."
@@ -1490,6 +1498,7 @@ the inspectors found that prisoners had their places assigned to them
 by the inner gatesman, himself a convicted prisoner, and a "wardsman" or responsible head of a room.
 the wardsman still exacted dues, of which more directly,
 and this particular official took excellent care to select as residents for his own ward those most suitable from his own point of view.
+"so great is the authority exercised by him,
 and so numerous were his opportunities of showing favoritism, that all the prisoners may be said to be in his power.
 if a man is poor and ragged, however inexperienced in crime, or however trifling may be the offense for which he has been committed
 his place is assigned among the most depraved, the most experienced, and the most incorrigible offenders in the middle yard.
@@ -1642,8 +1651,9 @@ more often they occurred at night, and were continued to the bitter end.
 the prisoners in this way administered serious punishment on one another. black eyes and broken noses were always to be seen.
 more cruel injuries were common enough, which did not result from honest hand-to-hand fights.
 the surgeon's journal produced to the inspectors contained numerous entries of terrible wounds inflicted in a cowardly way.
-a serious accident: one of the prisoners had a hot poker run into his eye.
-a lad named matthew white has had a wound in his eye by a bone thrown at him, which very nearly destroyed vision.
+"a serious accident: one of the prisoners had a hot poker run into his eye."
+"a lad named matthew white has had a wound in his eye by a bone thrown at him, which very nearly destroyed vision."
+"there was a disturbance in the transport yard yesterday evening, and the police were called in.
 during the tumult a prisoner, who was one of the worst of the rioters, was bruised about the head and body.
 watkins' knee-joint is very severely injured.
 a prisoner baxter is in the infirmary in consequence of a severe injury to his wrist-joint.
@@ -1733,8 +1743,8 @@ it tended to "dissipate reflection, diminish the gloom of the prison, and mitiga
 it is to be feared too that although the surface was thus whitewashed and decorous, much that was vicious still festered and rankled beneath,
 and that when the restraining influences of the ladies were absent, the female prisoners relapsed into immoral and uncleanly discourse.
 even in the daytime, when supervision was withdrawn, "the language used to be dreadful," says one of the women when under examination;
-swearing and talking of what crimes they had committed, and how they had done it. another witness declared she had heard the most shocking language in the yard; she said
-she had never witnessed such scenes before, and hopes she never shall again -- it was dreadful!
+"swearing and talking of what crimes they had committed, and how they had done it." another witness declared she had heard the most shocking language in the yard; she said
+"she had never witnessed such scenes before, and hopes she never shall again -- it was dreadful!"
 after locking-up time, which varied, as on the male side, according to the daylight, the scenes were often riotous and disgraceful.
 the poor, who could afford no luxuries, went to bed early, but were kept awake by the revelries of the rich,
 who supped royally on the supplies provided from outside, and kept it up till ten or eleven o'clock.
@@ -1760,13 +1770,13 @@ were associated continually with a number of those who could look with certainty
 the latter, light-hearted and reckless, conducted themselves in the most unseemly fashion, and "with as much indifference as the inmates of the other parts of the prison."
 they amused themselves after their own fashion; played all day long at blind-man's-buff and leap-frog, or beat each other with a knotted handkerchief,
 laughing and uproarious, utterly unmindful of the companionship of men upon whom lay the shadow of an impending shameful death.
-men whose cases were dangerous, and those most seriously inclined, complained of these annoyances,
+"men whose cases were dangerous, and those most seriously inclined, complained of these annoyances,"
 so subversive of meditation, so disturbing to the thoughts;
 they suffered sickening anxiety, and wished to be locked up alone. this indiscriminate association lasted for months,
 during the whole of which time the unhappy convicts who had but little hope of commutation were exposed to the mockery of their reckless associates.
 the brutal callousness of the bulk of the inmates of the press-yard may be gathered from the prison punishment-book, which frequently recorded such entries as the following:
 benjamin vines and daniel ward put in irons for two days for breaking the windows of the day room in the condemned cells.
-joseph coleman put in irons for three days for striking one of the prisoners, in the same place.
+"joseph coleman put in irons for three days for striking one of the prisoners," in the same place.
 there were disputes and quarrels constantly among these doomed men; it was a word and blow, an argument clenched always with a fight.
 the more peaceably disposed found some occupation in making newgate tokens,
 leaden hearts, and "grinding the impressions off penny-pieces, then pricking figures or words on them to give to their friends as memorials.
@@ -1840,7 +1850,8 @@ and the inspectors expressed themselves still more strongly in reprehension of t
 the infirmary at this particular period epitomized the condition of the jail at large.
 it was diverted from its proper uses, and, as the "place of the greatest comfort," was allotted to persons who should not have been sent to newgate at all.
 all the evils of indiscriminate association were strongly accentuated by the crowd collected within its narrow limits.
-it may easily be imagined, say the inspectors, in speaking of the prison generally,
+"it may easily be imagined," say the inspectors, in speaking of the prison generally,
+"what must be the state of discipline in a place filled with characters so various as were assembled there, where the tried and the untried, the sick and the healthy,
 the sane and the insane, the young and the old, the trivial offender and the man about to suffer the extreme penalty of the law,
 are all huddled together without discrimination, oversight, or control."
 enough has probably been extracted from this most damnatory report to give a complete picture of the disgraceful state in which newgate still remained in eighteen thirty-five.
@@ -1855,6 +1866,7 @@ again, the discipline commonly deemed inseparable from every place of durance wa
 the primary object of committing a prisoner to jail, as the inspectors pointed out, was to deter not only the criminal himself, but others from crime,
 and "to dispose him, by meditation and seclusion, to return to an honest life."
 but at newgate the convicted prisoner, instead of privation and hard fare,
+"is permitted to purchase whatever his own means or the means of his friends in or out of prison can afford,
 and he can almost invariably procure the luxuries of his class of life, beer and tobacco, in abundance.
 instead of seclusion and meditation, his time is passed in the midst of a body of criminals of every class and degree, in riot, debauchery, and gaming,
 vaunting his own adventures, or listening to those of others;
@@ -1879,7 +1891,7 @@ forbid the faintest shadow of a hope that in a soil so unfavorable for moral cul
 any awakening truth, salutary exhortation, or imperfect resolutions of amendment can take root or grow.
 strong as were the foregoing remarks, the inspectors wound up their report in still more trenchant language
 framing a terrible indictment against those responsible for the condition of newgate. their words deserve to be quoted in full.
-we cannot close these remarks, say the inspectors, "without an expression of the painful feelings with which we submit to your lordship
+"we cannot close these remarks," say the inspectors, "without an expression of the painful feelings with which we submit to your lordship
 this picture of the existing state of newgate
 that in this vast metropolis, the center of wealth, civilization, and information;
 distinguished as the seat of religion, worth, and philanthropy,
@@ -1914,16 +1926,18 @@ baths, fumigating places for clothing, wash-house, and the removal of dust-bins,
 in the press-yard, the press-room and ward above it were parceled out into nine separate sleeping cells;
 each was provided with an iron bedstead, and a small desk at which the condemned man might read or write.
 but the one great and most crying evil remained unremedied.
-the mischief of jail associations, say the inspectors,
+"the mischief of jail associations," say the inspectors,
+"which has been demonstrably proved to be the fruitful source of all the abuses and irregularities which have so long disgraced newgate,
 is not only permitted still to exist in the prison, but is rendered more powerful than before.
 in endeavoring to arrest contamination, prisoners were more closely confined, and associated in smaller numbers;
 but this had the effect of throwing them into closer contact, and of making them more intimately acquainted with, more directly influential upon, one another.
 in the inspectors' fourth report, dated eighteen thirty-nine,
 they return to the charge, and again call the corporation to task for their mismanagement of newgate.
 abuses and irregularities, which had been partially remedied by the reform introduced in eighteen thirty-seven, were once more in the ascendant.
-in our late visits, they say, "we have seen manifest indications of a retrograde movement in this respect,
+"in our late visits," they say, "we have seen manifest indications of a retrograde movement in this respect,
 and a tendency to return to much of that laxity and remissness which formerly marked the management of this prison."
 again the following year the inspectors repeat their charge.
+"the prominent evils of this prison (newgate) -- evils which the alterations made within the last four years have failed to remove
 are the association of prisoners, and the unusual contamination to which such association gives rise.
 for nearly twenty-two hours out of the twenty-four the prisoners are locked up, during which time no officer is stationed in the ward with them.
 they go on to say
@@ -2069,13 +2083,13 @@ and his soul shot out so piercingly through the port-holes of his head, that the
 his hands were clasped, and he was truly penitent.
 after the yeoman had requested him to stand up, 'he pinioned him,' as the newgate phrase is
 and tied the cord with so little feeling that the governor (wall), who had not given the wretch his accustomed fee, observed,
-you have tied me very tight, upon which dr. forde ordered him to slacken the cord, which he did, but not without muttering.
-thank you, sir, said the governor to the doctor, "it is of little moment."
+"you have tied me very tight," upon which dr. forde ordered him to slacken the cord, which he did, but not without muttering.
+"thank you, sir," said the governor to the doctor, "it is of little moment."
 he then made some observations to the attendant about the fire, and turning to the doctor, questioned him.
-do tell me, sir; i am informed i shall go down with great force; is it so?
+"do tell me, sir; i am informed i shall go down with great force; is it so?"
 after the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at goree,
 where the murder for which he was condemned had been committed.
-sir, he answered, "they sent me the very riff-raff."
+"sir," he answered, "they sent me the very riff-raff."
 the poor soul then joined the doctor in prayer, and never did i witness more contrition at any condemned sermon than he then evinced.
 the sheriff arrived, attended by his officers, to receive the prisoner from the keeper.
 a new hat was partly flattened on his head, for, owing to its being too small in the crown, it stood many inches too high behind.
@@ -2266,8 +2280,8 @@ the whole of the convicts were assembled together in one ward, and made to kneel
 to them entered the chaplain or ordinary of newgate in full canonicals,
 who in solemn tones communicated to each in turn the fate in store for him.
 the form of imparting the intelligence was generally the same.
-so-and-so, i am sorry to tell you that it is all against you; or,
-a. b., your case has been taken into consideration by the king in council, and his majesty has been mercifully pleased to spare your life.
+"so-and-so, i am sorry to tell you that it is all against you;" or,
+"a. b., your case has been taken into consideration by the king in council, and his majesty has been mercifully pleased to spare your life."
 the fatal news was not always received in the same way.
 the men who were doomed often fell down in convulsions upon the floor.
 sometimes any who had had a narrow escape fainted, but the bulk of those respited looked on with unfeeling indifference.
@@ -2426,7 +2440,7 @@ the crowd outside newgate on the day of execution has already been described; bu
 first came the sheriffs, the under-sheriffs, and several aldermen and city officials, then lord powerscourt and several other peers of the realm.
 mr. charles kean the tragedian was also present,
 drawn to this terrible exhibition by the example of his father, the more celebrated edmund kean, who had witnessed the execution of thistlewood
-with a view, as he himself said, "to his professional studies."
+"with a view," as he himself said, "to his professional studies."
 but there is little doubt that as executions became more rare they made more impression on the public mind.
 already a strong dislike to the reckless and almost indiscriminate application of the extreme penalty was apparent in all classes,
 and the mitigation of the criminal code, for which romilly had so strenuously labored, was daily more and more of an accomplished fact.
@@ -2774,8 +2788,8 @@ these antics may have been assumed to bear out the plea of insanity set up in hi
 but that there was madness in his family, and that he himself was of unsound mind, could not be well denied.
 his father, it was proved in evidence, had been at times quite mad; and oxford's mental state might be inferred from his own proceedings.
 among his papers was found a curious document, purporting to be the rules of an association called
-young england, which oxford had evolved out of his own inflated self-conceit, and which had never any real corporeal existence.
-young england was a secret society, with no aim or object.
+"young england," which oxford had evolved out of his own inflated self-conceit, and which had never any real corporeal existence.
+"young england" was a secret society, with no aim or object.
 its sworn members, known only to oxford, and all of them mere shadows,
 were bound to provide themselves with sword, rifle, dagger, and a pair of pistols;
 to wear a black crape mask, to obey punctually the orders of their commander-in-chief,
@@ -2883,7 +2897,7 @@ its embarrassments were greatly increased by the bankruptcy of two of its client
 and the bank became liable for a sum of one hundred seventy thousand pounds.
 new liabilities were incurred to the extent of one hundred thousand pounds by more failures, and in eighteen nineteen,
 by the death of one of the partners, a large sum in cash had to be withdrawn from the bank to pay his heirs.
-during these numerous and trying difficulties -- it is mr. fauntleroy who speaks --
+"during these numerous and trying difficulties" -- it is mr. fauntleroy who speaks --
 the house was nearly without resources, and the whole burthen of management falling on me, i sought resources where i could;
 in other words, he forged powers of attorney, and proceeded to realize securities lodged in his bank under various names.
 among the prisoner's private papers, one was found giving full details of the stock he had feloniously sold out,
@@ -3167,7 +3181,7 @@ the coach immediately drove off; mr. gee entered the house, asked for mr. heath,
 he was about to descend the stairs when three persons, one of them the young sailor,
 fell upon him, and in spite of his resistance carried him into a sort of den partitioned off at the end of the back kitchen.
 there he was seated on some sort of wooden bench and securely fastened.
-a chain fixed to staples at his back passed round his chest under his arms, and was padlocked on the left side;
+"a chain fixed to staples at his back passed round his chest under his arms, and was padlocked on the left side;"
 his feet were bound with cords and made fast to rings in the floor. thus manacled, one of the party, who pretended to be mrs. canning's brother,
 addressed him, insisting that he should forthwith sign a cheque for the eight hundred pounds of the canning inheritance still uninvested,
 and write an order sufficient to secure the surrender of the other one thousand two hundred pounds.
@@ -3327,13 +3341,13 @@ solomons, had sold bar gold to the value of one thousand two hundred pounds to c
 solomons was not straightforward in his replies as to where he got the gold, and he was soon placed in the dock with the caspars and moss.
 moss presently turned approver,
 and implicated "money moses," another jew, for the whole affair had been planned and executed by members of the hebrew persuasion.
-money moses had received the stolen gold-dust from moss' father-in-law, davis, or isaacs, who was never arrested,
+"money moses" had received the stolen gold-dust from moss' father-in-law, davis, or isaacs, who was never arrested,
 and passed it on to solomons by his daughter, a widow named abrahams.
 solomons was now also admitted as a witness, and his evidence, with that of moss, secured the transportation of the principal actors in the theft.
 in the course of the trial it came out that almost every one concerned except the caspars had endeavored to defraud his accomplices.
 moss peached because he declared he had been done out of the proper price of the gold-dust; but it was clear that he had tried to appropriate the whole of the stuff,
 instead of handing it or the price of it back to the caspars.
-money moses and mrs. abrahams imposed upon moss as to the price paid by solomons;
+"money moses" and mrs. abrahams imposed upon moss as to the price paid by solomons;
 mrs. abrahams imposed upon her father by abstracting a portion of the dust and selling it on her own account;
 solomons cheated the whole lot by retaining half the gold in his possession, and only giving an i. o. u. for it,
 which he refused to redeem on account of the row about the robbery.
@@ -3691,11 +3705,11 @@ in this he gave as the motives of his crime a quarrel he had with his master, wh
 lord william, according to the valet, was of a peevish, difficult temper;
 he was annoyed with his man for various small omissions and acts of forgetfulness, and on the night of the murder had taken courvoisier to task rather sharply.
 finally, on coming downstairs after bed-time, lord william had found courvoisier in the dining-room.
-what are you doing here? asked his lordship.
-you can have no good intentions; you must quit my service tomorrow morning.
+"what are you doing here?" asked his lordship.
+"you can have no good intentions; you must quit my service tomorrow morning."
 this seems to have decided courvoisier,
 who took a carving-knife from the sideboard in the dining-room, went upstairs to lord william's bedroom, and drew the knife across his throat.
-he appeared to die instantly, said the murderer, in conclusion.
+"he appeared to die instantly," said the murderer, in conclusion.
 his account of his acts and movements after the deed
 varied so considerably in the several documents he left behind, that too much reliance cannot be placed upon his confession.
 his last statement contains the words, "the public now think i am a liar, and they will not believe me when i say the truth."
@@ -3711,7 +3725,7 @@ the order was, however, at length obeyed, and the whole of the prisoner's clothe
 in the pocket of the coat mr. cope, the governor, found a neatly-folded cloth, and asked what it was for.
 courvoisier admitted that he had intended to bind it tightly round his arm and bleed himself to death in the night.
 the next inquiry was how he hoped to open a vein. "with a bit of sharpened stick picked out of the ordinary firewood."
-where is it? asked the governor.
+"where is it?" asked the governor.
 the prisoner replied that he had left it in the mattress of which he had just been deprived.
 the bed was searched, but no piece of sharpened wood was found. it was thought that it might have been lost in changing the mattresses.
 the cloth above referred to belonged to the inner seam of his trousers, which he had managed to tear out.
@@ -4183,7 +4197,7 @@ the blow fell suddenly, and when least expected. one morning mr. fasson asked ca
 whether representing real or fictitious shares does not appear; but they were certificates connected in some way with robson's long practiced frauds
 and he could not produce them. his chief asked sternly where they were.
 robson said they were at kilburn priory.
-let us go to kilburn for them together, said mr. fasson, growing suspicious.
+"let us go to kilburn for them together," said mr. fasson, growing suspicious.
 they drove there, and robson on arrival did the honors of his house, rang for lunch to gain time,
 but at mr. fasson's pressing demands went upstairs to fetch the certificates.
 he came back to explain that he had mislaid them.
@@ -4250,7 +4264,7 @@ just after robson's frauds had agitated the minds of all directors of companies,
 was standing at a railway station talking to a certain well-known peer of the realm.
 redpath passed and lifted his hat to his chairman; the latter acknowledged the salute.
 but the peer rushed forward and shook redpath warmly by the hand.
-what do you know of our clerk? asked mr. denison of his lordship. "only that he is a capital fellow, who gives the best dinners and balls in town."
+"what do you know of our clerk?" asked mr. denison of his lordship. "only that he is a capital fellow, who gives the best dinners and balls in town."
 redpath had industriously circulated reports that he had prospered greatly in speculation;
 but the chairman of the great northern could not realize that a clerk of the company could honestly be in the possession of unlimited wealth.
 it was at once decided at the board to make a thorough examination of all his books.
@@ -4587,9 +4601,9 @@ invited the man with the cough to enter a neighboring house and try a little pep
 the other accepted, and they got into conversation.
 he told calcraft that he was foxen the executioner, and that he was that moment on his way to newgate to hang a man,
 but that his cough was getting so much the master of him that he feared he would not be able to carry on his duties much longer.
-i have no idea who the sheriffs will get to do the work after me, said foxen, adding that his assistant, tom cheshire,
+"i have no idea who the sheriffs will get to do the work after me," said foxen, adding that his assistant, tom cheshire,
 was given to drink, and not to be trusted.
-i think i could do that sort of job, said calcraft, on the spur of the moment.
+"i think i could do that sort of job," said calcraft, on the spur of the moment.
 foxen asked him his name and address, and went away.
 calcraft thought no more of what had occurred till the next sessions at the old bailey, when the sheriffs sent for him,
 and offered him the post of executioner for the city of london and middlesex.
@@ -4635,7 +4649,7 @@ he was not unskilful, but he proceeded entirely by rule of thumb, leaving the re
 he was so much in favor of short drops that his immediate successor, marwood, stigmatized him as "short-drop" man.
 marwood being, on the other hand, in favor of giving a man as much rope as possible.
 with calcraft's method there were undoubtedly many failures, and it was a common custom for him to go below the gallows
-just to steady their legs a little; in other words, to add his weight to that of the hanging bodies.
+"just to steady their legs a little;" in other words, to add his weight to that of the hanging bodies.
 marwood till latterly seemed to have done his work more effectually, and has been known to give as much as six feet fall.
 this generally produces instantaneous death, although cases where complete fracture of the spinal cord occurred are said to be rare.
 calcraft served the city of london till eighteen seventy-four, when he was pensioned at the rate of twenty-five shillings per week.
@@ -4675,14 +4689,15 @@ never, indeed, had an execution been more generally patronized.
 this is proved by contemporary accounts, especially one graphic and realistic article which appeared in the 'times,'
 and which contributed in no small degree to the introduction of private executions. a great crowd was expected, and a great crowd came.
 they collected over night in the bright light of a november moon.
-there were well-dressed and ill-dressed, old men and lads, women and girls.
+"there were well-dressed and ill-dressed, old men and lads, women and girls."
 rain fell heavily at intervals, but did not thin the concourse.
+"till three o'clock it was one long revelry of songs and laughter, shouting, and often quarreling, though,
 to do them mere justice, there was at least till then a half-drunken ribald gaiety among the crowd that made them all akin."
 there were preachers among the crowd, but they could not get a patient hearing.
 then one struck up the hymn of the promised land, and the refrain was at once taken up with a mighty chorus --
 oh, my! think i've got to die.
 this was presently superseded by a fresh catch --
-müller, müller, he's the man, till a diversion was created by the appearance of the gallows, which was received with continuous yells.
+"müller, müller, he's the man," till a diversion was created by the appearance of the gallows, which was received with continuous yells.
 as day broke the character of the crowd was betrayed.
 there were but few women, except of the most degraded sort; the men were mostly young men --
 sharpers, thieves, gamblers, betting men, the outsiders of the boxing ring,
@@ -4827,7 +4842,7 @@ one was vexed to think that his victims had a finer funeral than he would have.
 the only subject another showed any interest in was the theatres and the new pieces that were being produced. a third, christian satler,
 laughed and jested with the officers about "jack ketch," who, through the postponement of the execution, would lose his christmas dinner.
 when they brought in the two watchers to relieve guard one night, sattler said,
-two fresh men! may i speak to them? yes! i must caution you, he went on to the warders, "not to go to sleep, or i shall be off through that little hole,"
+"two fresh men! may i speak to them? yes! i must caution you," he went on to the warders, "not to go to sleep, or i shall be off through that little hole,"
 pointing to an aperture for ventilating the cell. on the morning of execution he asked how far it was to the gallows, and was told it was quite close.
 that the convict's clothes were still the executioner's perquisite.
 often the convicts give way to despair. they are too closely watched to be allowed to do themselves much mischief, or suicides would probably be more frequent.
@@ -5109,7 +5124,7 @@ and they were each kept in an ordinary separate cell of the newly-constructed bl
 let down. a full view of them was thus at all times obtainable by the officers who, without intermission, day and night patrolled the ward.
 on the morning of execution the noise of fixing the gallows in the street outside awoke one or two of them.
 lyons asked the time, and was told it was only five.
-ah! he remarked, "they will have to wait for us then till eight."
+"ah!" he remarked, "they will have to wait for us then till eight."
 lopez was more talkative.
 when the warder went in to call him he asked for his clothes. he was told he would have to wear his own.
 then he wanted to know when the policemen would arrive, and was told none would come.
@@ -5290,7 +5305,7 @@ nothing was found in buncher's premises in strutton ground, which were thoroughl
 but proofs of griffiths' guilt were at once apparent on entering his work-room.
 in one corner was a printing-press actually in use, and on it were twenty-one forged bank of england notes, without date or signature.
 on the bed were twenty forged ten-pound notes complete and ready for use, and twenty-five five-pound notes.
-mother plates for engraving the body of the notes lay about, and other plates for various processes.
+"mother plates" for engraving the body of the notes lay about, and other plates for various processes.
 more than this, griffiths took the police to a field where, in a bank, a number of other plates were secreted.
 griffiths afterwards admitted that he had been employed in defrauding the bank since eighteen forty-six,
 and the prominent part he played secured for him on conviction the heaviest sentence of the law.
@@ -5309,7 +5324,7 @@ it was well known that they were resurrectionists, and a strict watch was kept a
 an officer was placed for this purpose at new cross, camberwell, and kennington gates.
 presently "old bob" drove up to camberwell gate in the same cart in which he had been seen to start.
 the officers rushed out to detain him. "what have you got here? we must search the cart," they cry.
-by all means, replies bob, and a close investigation follows, without any detection of the corpse concealed.
+"by all means," replies bob, and a close investigation follows, without any detection of the corpse concealed.
 bob was therefore allowed to pass on.
 but they had the body, all the same; it had been dressed up in decent clothes and made to stand upright in the cart.
 with the police officers it had passed muster as a living member of the party.
@@ -5707,7 +5722,7 @@ seeing that since the establishment of the central criminal court, newgate recei
 and he was therefore prepared to submit to parliament a proposal that half the cost of reconstruction should be borne by public funds.
 he forwarded plans prepared by the inspectors of prisons, not for blind adoption, but as a guide.
 this plan was on the principle of cellular separation, a system, according to lord john russell, desirable in all prisons,
-but in a metropolitan prison absolutely essential. the corporation in reply demurred rather to accepting strict separation as a rule,
+"but in a metropolitan prison absolutely essential." the corporation in reply demurred rather to accepting strict separation as a rule,
 feeling that it approached too nearly to solitary confinement.
 the court was, however, prepared to consider lord john russell's proposal with regard to the cost of rebuilding;
 but as the plan was "confessedly experimental, for the benefit of the country generally, the amount for which the city should be responsible should be distinctly limited
@@ -6266,7 +6281,7 @@ so many people come to washington who know things that are not so,
 and so few people who know anything about what the people of the united states are thinking about.
 that is why i occasionally leave this scene of action for a few days
 to go fishing or back home to hyde park, so that i can have a chance to think quietly about the country as a whole.
-to get away from the trees, as they say, "and to look at the whole forest."
+"to get away from the trees", as they say, "and to look at the whole forest."
 this duty of seeing the country in a long-range perspective
 is one which, in a very special manner, attaches to this office to which you have chosen me.
 did you ever stop to think that there are, after all, only two positions in the nation
@@ -6788,7 +6803,7 @@ which, from their similarity to animals of simple organization, were called "zoo
 even as late as eighteen forty-five, however, a botanist of schleiden's eminence dealt very skeptically with these statements,
 and his skepticism was the more justified since ehrenberg in his elaborate and comprehensive work on the infusoria,
 had declared the greater number of what are now recognized as locomotive plants to be animals.
-at the present day, writes huxley,
+"at the present day," writes huxley,
 innumerable plants and free plant cells are known to pass the whole or part of their lives in an actively locomotive condition,
 in nowise distinguishable from that of one of the simpler animals, and
 while in this condition their movements are, to all appearances, as spontaneous -- as much the product of volition -- as those of such animals.
@@ -6868,7 +6883,7 @@ one of which is able to affect the other by means of the communication so establ
 hence it is conceivable that even the simplest living being may possess a nervous system.
 and the question whether plants are provided with a nervous system or not thus acquires a new aspect and presents the histologist and physiologist
 with a problem of extreme difficulty, which must be attacked from a new point of view and by the aid of methods which have yet to be invented.
-thus it must be admitted, he says again, "that plants may be contractile and locomotive;
+"thus it must be admitted," he says again, "that plants may be contractile and locomotive;
 that, while locomotive, their movements may have as much appearance of spontaneity as those of the lowest animals,
 and that many exhibit actions comparable to those which are brought about by the agency of a nervous system in animals.
 and it must be allowed to be possible that further research may reveal the existence of something comparable to a nervous system in plants.
@@ -7117,7 +7132,7 @@ it means blood relationship.
 these principles of homology are essential to a correct interpretation of the facts of morphology.
 the most striking fact of similar structure among plants and among animals is the existence of a common general plan in any group.
 since backboned animals are best known to most readers, they may be taken as an illustration.
-all vertebrate animals, and none other, says le conte, "have an internal jointed skeleton worked by muscles on the outside.
+"all vertebrate animals, and none other," says le conte, "have an internal jointed skeleton worked by muscles on the outside.
 the relation of skeleton and muscle in arthropods is exactly the reverse.
 in all vertebrates, and in none other, the axis of this skeleton is a jointed backbone (vertebral column)
 enclosing and protecting the nervous centers (cerebrospinal axis).
@@ -7179,7 +7194,8 @@ of course the theory of descent with adaptive modification has a simple answer t
 namely that when from changed conditions of life, an organ which was previously useful becomes useless,
 it will be suffered to dwindle away in successive generations, under the influence of certain natural causes.
 on the other hand, the theory of special creation can only maintain that these rudiments are formed for the sake of adhering to an ideal type.
-now, here again the former theory appears to be triumphant over the latter, says romanes,
+"now, here again the former theory appears to be triumphant over the latter," says romanes,
+"for, without waiting to dispute the wisdom of making dwarfed and useless structures merely for the whimsical motive assigned,
 surely if such a method were adopted in so many cases, we should expect that in consistency it would be adopted in all cases.
 this reasonable expectation, however, is far from being realized.
 in numberless cases, such as that of the fore-limbs of serpents, no vestige of a rudiment is present.
@@ -7198,7 +7214,7 @@ to present the mass of embryological evidence, but a few salient facts will illu
 most remarkable of all the principles which have been discovered by embryologists is the "recapitulation doctrine"
 which, briefly stated, is that individual development (ontogeny) recapitulates ancestral history (phylogeny).
 illustrations quoted from the works of romanes and le conte will make this principle clear.
-it is an observable fact, says romanes,
+"it is an observable fact," says romanes,
 that there is often a close correspondence between developmental changes as revealed by any chronological series of fossils which may happen to have been preserved,
 and developmental changes which may be observed during the life history of now existing individuals belonging to the same group of animals.
 is closely reproduced in the life-history of existing deer. or, in other words,
@@ -7219,7 +7235,7 @@ now i do not deny that this view is a possible view; but i do deny that it is a 
 according to the evolutionary interpretation of such facts, we can see a very good reason why the life-history of the individual
 is thus a condensed resume of the life history of its ancestral species.
 but according to the opposite view no reason can be assigned why such should be the case.
-it is well known, likewise comments le conte,
+"it is well known," likewise comments le conte,
 that the embryo or larva of a frog or toad, when first hatched, is a legless, tail-swimming, water-breathing, gill-breathing animal.
 it is essentially a fish, and would be so classed if it remained in this condition.
 the fish retains permanently this form, but the frog passes on.
@@ -7440,8 +7456,8 @@ belshazzar, the king, he was really the king's son, gave a feast to a thousand o
 in the great banquet hall of the palace, when the guests were drinking from the golden cups, and the revelry was at its highest,
 there suddenly appeared upon the wall an armless hand.
 high up, where all might see it, the armless hand wrote the king's fate.
-thou art weighed in the balances and art found wanting.
-in that night, so the story ends, "belshazzar, the chaldean king, was slain."
+"thou art weighed in the balances and art found wanting."
+"in that night," so the story ends, "belshazzar, the chaldean king, was slain."
 less picturesque than this hebrew legend is the royal record of babylon, which fortunately was inscribed upon a clay cylinder from the ruins of the city.
 it refers to the death of the king's son, possibly to belshazzar of the bible story.
 in the month tammuz, when cyrus fought the troops of akkad (babylonia) at opis on the river salsallat,
@@ -7538,7 +7554,7 @@ i maimed myself because i could not endure that the assyrians should laugh at th
 thou coverest the foulest deeds with the fairest possible name, when thou sayest thy maiming is to help our siege forward.
 how will thy disfigurement, thou simpleton, induce the enemy to yield one day sooner?
 surely thou hadst gone out of thy mind when thou didst so misuse thyself.
-had i told thee, rejoined the other, "what i was bent on doing, thou wouldst not have suffered it;
+"had i told thee," rejoined the other, "what i was bent on doing, thou wouldst not have suffered it;
 as it is, i kept my own counsel, and so accomplished my plans.
 now, therefore, if there be no failure on thy part, we shall take babylon.
 i will desert to the enemy as i am, and when i get into their city i will tell them that it is by thee that i have been thus treated.
@@ -7558,7 +7574,7 @@ he replied that he was zopyrus, and deserted to them from the persians.
 then the doorkeepers, when they heard this, carried him at once before the magistrates.
 introduced into their assembly, he began to bewail his misfortunes, telling them that
 darius had maltreated him in the way they could see, only because he had given advice that the siege should be raised, since there seemed no hope of taking the city.
-and now, he went on to say, "my coming to you, babylonians,
+"and now," he went on to say, "my coming to you, babylonians,
 will prove the greatest gain that you could possibly receive, while to darius and the persians it will be the severest loss.
 verily he by whom i have been so mutilated shall not escape unpunished. and truly all the paths of his counsels are known to me.
 thus did zopyrus speak.
@@ -7970,7 +7986,7 @@ it was fashioned after the "wanted" circulars issued by law enforcement agencies
 beneath two photographs of president kennedy, one full- face and one profile, appeared the caption, quote, wanted for treason,
 end quote, followed by a scurrilous bill of particulars that constituted a vilification of the president.
 and on the morning of the president's arrival, there appeared in the morning news a full, black-bordered advertisement headed:
-welcome mr. kennedy to dallas, sponsored by the american fact-finding committee, which the sponsor later testified was an ad hoc committee
+"welcome mr. kennedy to dallas," sponsored by the american fact-finding committee, which the sponsor later testified was an ad hoc committee
 quote, formed strictly for the purpose of having a name to put in the paper, end quote,
 report of the president's commission on the assassination of president kennedy. the warren commission report. by the president's commission on the assassination of president kennedy.
 chapter two. the assassination: part two.
@@ -8153,7 +8169,7 @@ looking over her right shoulder, she saw that the president had both hands at hi
 she watched as he slumped down with an empty expression on his face.
 roy kellerman, in the right front seat of the limousine, heard a report like a firecracker pop.
 turning to his right in the direction of the noise, kellerman heard the president say
-my god, i am hit, and saw both of the president's hands move up toward his neck.
+"my god, i am hit," and saw both of the president's hands move up toward his neck.
 as he told the driver, quote, let's get out of here; we are hit, end quote,
 kellerman grabbed his microphone and radioed ahead to the lead car,
 quote, we are hit. get us to the hospital immediately, end quote.
@@ -8513,7 +8529,7 @@ it bore the manufacturer's serial number c two seven six six.
 on that date, klein's placed an internal control number v c eight three six on this rifle.
 according to klein's shipping order form, one italian carbine six point five x four x scope,
 control number v c eight three six, serial number c two seven six six, was shipped parcel post to
-a. hidell, p.o. box two nine one five, dallas, texas, on march twenty, nineteen sixty-three.
+"a. hidell, p.o. box two nine one five, dallas, texas," on march twenty, nineteen sixty-three.
 information received from the italian armed forces intelligence service has established that this particular rifle was the only rifle of its type
 bearing serial number c two seven six six.
 the post office box to which the rifle was shipped was rented to "lee h. oswald" from october nine, nineteen sixty-two,
@@ -8594,7 +8610,7 @@ he stated that the poor quality of the wood and the metal would cause the rifle 
 on november twenty-two, however, before surrendering possession of the rifle to the fbi laboratory,
 lieutenant day of the dallas police department had "lifted" a palmprint from the underside of the gun barrel
 quote, near the firing end of the barrel about three inches under the woodstock when i took the woodstock loose, end quote,
-lifting a print involves the use of adhesive material to remove the fingerprint powder which adheres to the original print.
+"lifting" a print involves the use of adhesive material to remove the fingerprint powder which adheres to the original print.
 in this way the powdered impression is actually removed from the object.
 the lifting had been so complete in this case that there was no trace of the print on the rifle itself when it was examined by latona.
 nor was there any indication that the lift had been performed.
@@ -11021,7 +11037,7 @@ the philippines, and the scores of odd islands in the pacific.
 immediately after serving out his three years in the u.s. marine corps, he abandoned his american life to seek a new life in the ussr.
 full of optimism and hope, he stood in red square in the fall of nineteen fifty-nine, vowing to see his chosen course through,
 after, however, two years and a lot of growing up, i decided to return to the usa.
-the collective contrasts sharply with material which oswald seems to have written after he left the soviet union.
+"the collective" contrasts sharply with material which oswald seems to have written after he left the soviet union.
 which appears to be more an expression of his own psychological condition than of a reasoned analysis.
 the latter material expresses great hostility to both communism and capitalism. he wrote, that to a person knowing both of those systems, quote,
 there can be no mediation between those systems as they exist today, and that person
