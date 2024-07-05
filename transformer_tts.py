@@ -8,6 +8,7 @@ import torch
 from torch.utils.data import DataLoader
 from torch.cuda.amp import autocast, GradScaler
 from torch.optim.lr_scheduler import ReduceLROnPlateau
+from tqdm import tqdm
 
 class Runner(object):
     def __init__(self, model, optimizer, loss_fun, scaler):
@@ -24,7 +25,9 @@ class Runner(object):
             self.model.train()
             # 将上一步得到的梯度清零
             self.optimizer.zero_grad()
-            for data in data_loader:
+            pbar = tqdm(data_loader)
+            for data in pbar:
+                pbar.set_description("Processing at this epoch")
                 src, src_length, tgt, tgt_length = data
                 src = src.cuda()
                 tgt = tgt.cuda()
@@ -34,7 +37,9 @@ class Runner(object):
                 with autocast():
                     prediction = self.model(src, src_key_padding_mask, tgt, tgt_key_padding_mask)
                     loss = self.loss_fun(prediction, tgt)
-                self.scaler.scale(loss).backward()          
+                self.scaler.scale(loss).backward()    
+                # 梯度裁剪，防止梯度爆炸。max值1或5，或根据实际情况调优
+                nn.utils.clip_grad_norm_(self.model.parameters(), 5.)      
                 self.scaler.step(self.optimizer)
                 self.scaler.update()
                 # loss_all += loss 会导致训练了几个epoch后出现显存溢出。 If that's the case, you are storing the computation graph in each epoch, which will grow your memory.You need to detach the loss from the computation, so that the graph can be cleared.iter_loss += loss.item() or iter_loss += loss.detach().item()
@@ -128,8 +133,9 @@ def main(args, parameter_dict):
 
     num_encoder_layers = parameter_dict["num_encoder_layers"]
     num_decoder_layers = parameter_dict["num_decoder_layers"]
-    max_length_src = parameter_dict["max_length_src"]
-    max_length_tgt = parameter_dict["max_length_tgt"]
+    # include the sos and eos token
+    max_length_src = parameter_dict["max_length_src"] + 2
+    max_length_tgt = parameter_dict["max_length_tgt"] + 2
     use_checkpoint = parameter_dict["use_checkpoint"]
     dataset_path = parameter_dict["dataset_path"]
     corpus_path = parameter_dict["corpus_path"]
@@ -184,6 +190,10 @@ def main(args, parameter_dict):
     # 对批次损失值默认求平均，可以改成sum求和
     if loss_name == 'MSE':
         loss_fun = nn.MSELoss(reduction='mean').cuda()
+    elif loss_name == 'MAE':
+        loss_fun = nn.L1Loss().cuda()
+    else:
+        raise ValueError(f"Unsupported loss type: {loss_name}")
         
     # 定义优化器
     if optimizer_name == 'adam':

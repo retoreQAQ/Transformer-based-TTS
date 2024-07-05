@@ -1,2 +1,3 @@
 *.ark
 ./log/*
+*.ipynb

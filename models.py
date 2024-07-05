@@ -38,7 +38,7 @@ class TransformerForTTS(nn.Module):
     def __init__(self, max_length_src, max_length_tgt, vocab_size, n_mel_channels=80, d_model=256, nhead=8, num_encoder_layers=6, num_decoder_layers=6, dropout=0.1):
         super(TransformerForTTS, self).__init__()
         
-        self.encoder_embedding = nn.Embedding(vocab_size, d_model)
+        self.encoder_embedding = nn.Embedding(vocab_size, d_model, padding_idx=0)
         self.position_encoder = PositionalEncoding(d_model, max_length_src)
         # 线性层将音频特征调整为transformer模型的维度
         self.change_d_model = nn.Linear(n_mel_channels, d_model)

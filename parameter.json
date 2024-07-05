@@ -17,8 +17,8 @@
             "batch_size": 16
         },
         "l2_lambda": 0.00,
-        "this_a_comment_2": "MSE cross ctc",
-        "loss_name": "MSE",
+        "this_a_comment_2": "MSE MAE",
+        "loss_name": "MAE",
         "this_a_comment_3": "sgd adam",
         "optimizer_name": "adam",
         "use_checkpoint": true,

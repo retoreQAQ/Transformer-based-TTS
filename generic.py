@@ -73,15 +73,21 @@ class LJSpeechDataset(Dataset):
         # feat_uttid: [tensor(max_length, n_feature), uttid(str)]
         for feat_uttid in src_feats_list:
             
-            tgt = feat_uttid[0]
-            tgt_length = tgt.shape[0]
-            tgt = F.pad(tgt, (0, 0, 0, self.max_length_tgt - tgt_length), 'constant', 0) if tgt_length <= self.max_length_tgt else tgt[:self.max_length_tgt]
-            
-            
             uttid = feat_uttid[1]
             src = torch.tensor(self.sp.encode(self.id_trans_dict[uttid]))
+            # sos and eos, id is up to sp vocab
+            src = torch.cat((torch.tensor([1]), src, torch.tensor([2])))
             src_length = src.shape[0]
             src = F.pad(src, (0, self.max_length_src - src_length), 'constant', 0) if src_length <= self.max_length_src else src[:self.max_length_src]
+            
+            tgt = feat_uttid[0]
+            tgt = (tgt -  tgt.mean()) / tgt.std()
+            # 创建前后各一帧全0帧
+            zero_frame = torch.zeros((1, tgt.shape[1]))
+            # 在前后各加一帧全0帧
+            tgt = torch.cat((zero_frame, tgt, zero_frame), dim=0)
+            tgt_length = tgt.shape[0]
+            tgt = F.pad(tgt, (0, 0, 0, self.max_length_tgt - tgt_length), 'constant', 0) if tgt_length <= self.max_length_tgt else tgt[:self.max_length_tgt]
 
             src_tgt = [src, src_length, tgt, tgt_length]
             src_tgt_list.append(src_tgt)
