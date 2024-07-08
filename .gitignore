@@ -1,3 +1,4 @@
 *.ark
-./log/*
+log/
 *.ipynb
+*.pyc
